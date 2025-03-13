@@ -1,6 +1,6 @@
-import { ServiceCard, serviceCardArgs } from '../../cards/services'
-import './styles.scss'
-import { TbReportMedical } from "react-icons/tb";
+import { ServiceCard, serviceCardArgs } from '../../cards/services';
+import './styles.scss';
+import { TbReportMedical } from 'react-icons/tb';
 import { FaHandHoldingMedical, FaHeartbeat } from 'react-icons/fa';
 import { FaLaptopMedical } from 'react-icons/fa6';
 import { MdOutlineArrowOutward } from 'react-icons/md';
@@ -39,25 +39,27 @@ const services: serviceCardArgs[] = [
   }
 ];
 
-export const ServicesSection = ()=>{
-    return(
-        <section id="ServicesSection">
-            <ul>
-                {services.map((service, index)=>{
-                    return(
-                        <li key={`service=${index}`}>
-                            <ServiceCard
-                                title={service.title} 
-                                description={service.description}
-                                icon= {service.icon}
-                                link={service.link}
-                                textLink={service.textLink}
-                            /> 
-                        </li>
-                    )
-                })}
-            </ul>
-              <a className='cta' href="#">ver todos os serviços <MdOutlineArrowOutward /> </a>
-        </section>
-    )
-}
+export const ServicesSection = () => {
+  return (
+    <section id="ServicesSection">
+      <ul>
+        {services.map((service, index) => {
+          return (
+            <li key={`service=${index}`}>
+              <ServiceCard
+                title={service.title}
+                description={service.description}
+                icon={service.icon}
+                link={service.link}
+                textLink={service.textLink}
+              />
+            </li>
+          );
+        })}
+      </ul>
+      <a className="cta" href="#">
+        ver todos os serviços <MdOutlineArrowOutward />{' '}
+      </a>
+    </section>
+  );
+};

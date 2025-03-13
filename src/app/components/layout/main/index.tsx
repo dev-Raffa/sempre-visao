@@ -1,5 +1,5 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react';
 
-export const Main = ({children}: {children: ReactNode})=>{
-    return <main>{children}</main>
-}
+export const Main = ({ children }: { children: ReactNode }) => {
+  return <main>{children}</main>;
+};

@@ -1,8 +1,7 @@
-import './styles.scss'
+import './styles.scss';
 
-import BackgroundImage from "../../../../../../../public/images/DSC03962.webp"
+import BackgroundImage from '../../../../../../../public/images/DSC03962.webp';
 import Image from 'next/image';
-
 
 export const SpecialtiesSection = () => {
   return (

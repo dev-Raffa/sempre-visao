@@ -1,10 +1,6 @@
-import "./styles.scss"
+import './styles.scss';
 
-import {
-  FaFacebook,
-  FaInstagram,
-  FaWhatsapp,
-} from 'react-icons/fa6';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa6';
 
 export const SocialMedias = () => {
   return (
@@ -12,20 +8,20 @@ export const SocialMedias = () => {
       <span>contatos:</span>
       <ul>
         <li>
-        <a href="#">
+          <a href="#">
             <FaWhatsapp />
-        </a>
-      </li>
-      <li>
-        <a href="#">
+          </a>
+        </li>
+        <li>
+          <a href="#">
             <FaInstagram />
-        </a>
-      </li>
-      <li>
-        <a href="#">
+          </a>
+        </li>
+        <li>
+          <a href="#">
             <FaFacebook />
-        </a>
-      </li>
+          </a>
+        </li>
       </ul>
     </section>
   );

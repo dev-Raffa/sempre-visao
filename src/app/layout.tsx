@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Poppins, Work_Sans } from 'next/font/google';
+import { Work_Sans } from 'next/font/google';
 import './styles/globals.scss';
 import { Header } from './components/layout/header';
 import { Main } from './components/layout/main';
@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 };
 
 const font = Work_Sans({
-  subsets:["latin"],
-  weight: ["300", "400", "500", "600" ,"700"],
-  variable:"--work-sans"
-})
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--work-sans'
+});
 
 export default function RootLayout({
   children
@@ -25,9 +25,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={font.className}>
         <Header />
-        <Main>
-          {children}
-        </Main>
+        <Main>{children}</Main>
         <Footer />
       </body>
     </html>
