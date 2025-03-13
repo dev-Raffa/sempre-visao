@@ -1,0 +1,30 @@
+#ServicesSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 200px);
+    gap: 16px;
+    padding: 72px 0;
+    justify-content: center;
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, calc(50% - 8px));
+        gap: 16px;
+        
+        li{
+         width: 100%;
+        }
+    }
+    
+        .cta{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0F586C;
+            margin-top: 12px;
+            padding: 8px 24px;
+            border-radius: 5px;
+            color: white;
+        }
+}

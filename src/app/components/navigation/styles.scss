@@ -1,0 +1,17 @@
+.navigation{
+    ul{
+        display: flex;
+        width: fit-content;
+        gap: 18px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        color: #137582; 
+        li{
+            a{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}
