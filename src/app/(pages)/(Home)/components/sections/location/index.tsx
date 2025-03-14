@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import './styles.scss'
 
 export const LocationSection = ()=>{
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState<number>(0);
 
   useEffect(() => {
     const handleResize = () => {
