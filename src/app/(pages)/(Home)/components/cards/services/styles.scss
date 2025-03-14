@@ -1,24 +1,28 @@
 .ServiceCard{
     width: 100%;
     min-width: 300px;
-    height: 400px;
+    height: 350px;
     padding: 36px 48px;
     display: flex;
     flex-direction: column;
     gap: 18px;
-    color: #005562 ;
+    color: var(--primary-color) ;
     background-color: #ECEBEB;
     border-radius: 10px;
     transition: all ease 0.5s;
     
     figure{
-        width: 100px;
-        height: 100px;
-        border-radius: 20px;
+        width: 75px;
+        height: 75px;
+        border-radius: 10px;
         background-color: rgba(231, 250, 255, 1);
         display: flex;
         align-items: center;
         justify-content: center;
+        svg{
+            width: 30px;
+            height: 30px;
+        }
     }
 
     section{
@@ -33,7 +37,7 @@
 
         p{
             font-size: 14px;
-            color: rgba(17, 117, 129, 0.95);
+            color: var(--secondary-color);
             font-weight: 500;
             height: 100px;
             overflow: hidden;
@@ -41,7 +45,7 @@
     }
 
     a{
-        border: 1px solid #117581;
+        border: 1px solid var(--primary-color);
         border-radius: 10px;
         height: 60px;
         width: 100%;
@@ -52,10 +56,6 @@
 
 
     &:hover{
-        background-color: #005562;
-        color:#ECEBEB;
-        p{
-            color: white;
-        }
+        background-color: var(--tertiary-color);
     }
 }

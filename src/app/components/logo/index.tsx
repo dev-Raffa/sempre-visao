@@ -8,7 +8,7 @@ export const Logo = () => {
       <Image
         src={logoImage}
         alt="logo sempre visão:á esquerda o desenho de um olho com linhas amarelas e azuis, á direita Sempre Visão."
-        height={100}
+        height={150}
       />
     </figure>
   );

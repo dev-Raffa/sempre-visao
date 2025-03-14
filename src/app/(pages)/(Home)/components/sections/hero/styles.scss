@@ -1,5 +1,6 @@
 #HeroSection{
-    height: calc(100dvh - 110px);
+    height: calc(100dvh - 150px);
+    min-height: 623px;
     width: 100%;
     padding: 0px 60px;
 
@@ -7,9 +8,9 @@
         border-radius: 10px;
         width: 100%;
         min-height: 100%;
-        background: rgb(17,117,129);
-        background: linear-gradient(99deg, rgba(17,117,129,1) 11%, rgba(39,151,163,1) 37%, rgba(39,151,163,1) 57%, rgba(17,117,129,1) 88%);
-        padding: 64px 52px 12px 52px;
+        background: #1F2D60;
+        background: linear-gradient(99deg, #1F2D60 11%, #344275 37%, #344275 57%, #1F2D60 88%);
+        padding: 90px 52px 12px 52px;
         color: white;
         display: flex;
 
@@ -65,7 +66,7 @@
 
                 li:first-child{
                     background-color: #FFFFFF;
-                    color: #0F586C;
+                    color: var(--primary-color);
                     width: 350px;
                     padding: 14px 0;
                     justify-content: center;
@@ -83,7 +84,7 @@
                             height: 55px;
                             width: 55px;
                             border-radius: 50%;
-                            background-color: #6AC0BC;
+                            background-color: var(--tertiary-color);
                             position: relative;
 
                             svg{
@@ -115,7 +116,7 @@
                 border-radius: 40px;
                 border-top-left-radius: 75px; 
                 border-bottom-left-radius: 0px;
-                background-color: #005562;
+                background-color: var(--primary-color);
                 display: flex;
                 justify-content: center;
                 align-items: center;

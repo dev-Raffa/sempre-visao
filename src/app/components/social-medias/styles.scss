@@ -5,7 +5,7 @@
     justify-content: center;
 
     & span{
-        color: #137582;
+        color: var(--primary-color);
         font-size: 18px;
         font-weight: 600;
     }
@@ -17,14 +17,14 @@
        gap: 8px;
        
        li:first-child{
-        background-color: #005562;
+        background-color: var(--primary-color);
         color: white;
 
        }
 
        li:not(:first-child){
-        border: 1px solid #005562;
-        color: #005562;
+        border: 1px solid var(--primary-color);
+        color: var(--primary-color);
        }
 
        li{

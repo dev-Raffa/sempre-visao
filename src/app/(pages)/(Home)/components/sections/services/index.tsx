@@ -42,6 +42,9 @@ const services: serviceCardArgs[] = [
 export const ServicesSection = () => {
   return (
     <section id="ServicesSection">
+      <div>
+          <h2>O que fazemos</h2>
+      </div>
       <ul>
         {services.map((service, index) => {
           return (

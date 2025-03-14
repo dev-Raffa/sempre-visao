@@ -1,66 +1,38 @@
 #specialties{
     position: relative;
     width: calc(100% - 200px);
-    height: 600px;
+    height: 200px;
     padding: 72px;
     display: flex;
-
-    div{
-        position: absolute;
-        height: calc(100% - 144px);
-        width: 50%;
-        right: 0;
-        z-index: 1;
-        
-        figure{
-            position: relative;
-            width: 100%;
-            height: 100%;
-
-            img{
-                object-fit: cover;
-                opacity: 0.7;
-                border-radius: 10;
-            }
-            
-        }
-    }
     
-    h3{
-        position: absolute;
-        top: 72px;
-        left: 0;
-        background-color: #005562;
-        width: 450px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-
     ul{
+        position: absolute;
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: calc(100% - 34px);
+        height: 150px;
         z-index: 2;
+        background: white;
+        left: 17px;
+        top: -82px;
+        border-radius: 10px;
+        align-items: center;
 
         li{
-            width: 150px;
-            height: 100%px;
             text-align: center;
+            width: 100%;
+            height: 100%;
 
             figure{
                 position: relative;
                 height: 100%;
+                width: 100%;
                 
                 img{
                     height: 100px;
                     width: 100px;
                     border-radius: 50%;
-                    border: 3px solid rgba(166, 202, 203, 1);
+                    border: 3px solid rgba(63, 115, 173, 0.548);
                     position: absolute;
                     top: calc(50% - 50px);
                     left: calc(50% - 50px);
@@ -73,7 +45,7 @@
                     left: calc(50% - 64px);
                     width: 128px;
                     height: 40px;
-                    background-color: #005562;
+                    background-color: var(--tertiary-color);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -81,33 +53,10 @@
                     border-radius:5 ;
                     font-size: 12px;
                     font-weight: 600;
-                    color: white;
+                    color: var(--primary-color);
                 }
             }
         }
 
-        li:nth-child(1), li:nth-child(6){
-            figure{
-                img{
-                    top: calc(32% - 50px);
-                }
-
-                figcaption{
-                    top:calc(32% + 62px) ;
-                }
-            }
-        }
-
-        li:nth-child(3), li:nth-child(4){
-            figure{
-                img{
-                    top: calc(65% - 50px);
-                }
-
-                figcaption{
-                    top:calc(65% + 62px) ;
-                }
-            }
-        }
     }
 }

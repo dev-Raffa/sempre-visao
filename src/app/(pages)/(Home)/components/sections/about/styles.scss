@@ -1,0 +1,45 @@
+#About{
+    width:100%;
+    padding: 48px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    gap:42px;
+    
+    h2{
+        font-size: 48px;
+        color: var(--primary-color);
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, calc(50% - 24px));
+        height: 450px;
+        width: 100%;
+        gap:48px;
+
+        article{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:12px;
+            width: 90%;
+
+            p{
+                font-size: 18px;
+                color: var(--primary-color);
+                font-weight: 600;
+            }
+        }
+
+        figure{
+            position: relative;
+            
+            img{
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
+}

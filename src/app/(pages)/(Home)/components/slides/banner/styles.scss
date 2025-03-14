@@ -1,0 +1,38 @@
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 52px 12px 52px;
+    transition: all ease-in 0.9s ;
+    
+    figure{
+      height: calc(100dvh - 150px);
+      position:relative;
+      width:100%;
+      border-radius: 10px;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        max-width: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+
+        &.current{
+          opacity: 1;
+        }
+
+        &.fade-out {
+          opacity: 0;
+        }
+
+
+      }
+    }
+}
+  

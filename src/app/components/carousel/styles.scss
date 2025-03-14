@@ -1,0 +1,136 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+    &__track {
+      display: flex;
+      transition: transform 500ms ease-in-out;
+    }
+    
+    &__slide {
+      flex-shrink: 0;
+    }
+    
+    &__button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+      }
+      
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      
+      svg {
+        width: 20px;
+        height: 20px;
+        color: #333;
+      }
+      
+      &--prev {
+        left: 16px;
+      }
+      
+      &--next {
+        right: 16px;
+      }
+    }
+    
+    &__icon {
+      height: 1rem;
+      width: 1rem;
+    }
+    
+    &__sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+    
+    &__indicators {
+      position: absolute;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+    
+    &__indicator {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: none;
+      padding: 0;
+      transition: all 300ms ease;
+      cursor: pointer;
+      
+      &--active {
+        background-color: white;
+        width: 16px;
+        border-radius: 4px;
+      }
+      
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      &__button {
+        width: 32px;
+        height: 32px;
+        
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      
+      &__indicators {
+        bottom: 8px;
+      }
+      
+      &__indicator {
+        height: 6px;
+        width: 6px;
+        
+        &--active {
+          width: 12px;
+        }
+      }
+    }
+  }
+  
+  

@@ -1,0 +1,20 @@
+#TestimonialSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 200px);
+    gap: 48px;
+    padding: 72px 48px;
+    justify-content: center;
+
+    div{
+        h2{
+            font-size: 48px;
+            color: var(--primary-color);
+        }
+        p{
+            font-size: 24px;
+            color: var(--secondary-color);
+        }
+    }
+}
