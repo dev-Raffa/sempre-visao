@@ -2,11 +2,11 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 0px 52px 12px 52px;
+    padding: 0px 12px 12px 12px;
     transition: all ease-in 0.9s ;
-    
+
     figure{
-      height: calc(100dvh - 150px);
+      height: calc(100dvh - 560px);
       position:relative;
       width:100%;
       border-radius: 10px;
@@ -23,6 +23,9 @@
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
 
+        aspect-ratio: 1;
+        object-fit: cover;
+
         &.current{
           opacity: 1;
         }
@@ -30,9 +33,20 @@
         &.fade-out {
           opacity: 0;
         }
-
-
       }
     }
+
+    @media screen and (min-width: 720px) {
+      padding: 0px 24px 12px 24px;  
+    }
+
+    @media screen and (min-width: 1024px) {
+      padding: 0px 52px 12px 52px;
+
+      figure {
+        height: calc(100dvh - 150px);  
+      }
+    }
+    
 }
   

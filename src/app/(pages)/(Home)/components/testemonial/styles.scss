@@ -9,11 +9,11 @@ $star-color: #FBBF24;
 $inactive-color: #d1d5db;
 
 $card-width-center: 400px;
-$card-height-center: 240px;
+$card-height-center: 300px;
 $card-width-side: 300px;
-$card-height-side: 210px;
+$card-height-side: 250px;
 
-$transition-duration: 500ms;
+$transition-duration: 900ms;
 $transition-timing: ease-in-out;
 
 // Testimonial Section
@@ -76,18 +76,18 @@ $transition-timing: ease-in-out;
   }
   
   &.nav-button-prev {
-    left: 1rem;
+    left: 0px;
     
-    @media (min-width: 768px) {
-      left: 10rem;
+    @media (min-width: 1024px) {
+      left: 7rem;
     }
   }
   
   &.nav-button-next {
-    right: 1rem;
+    right: 0px;
     
-    @media (min-width: 768px) {
-      right: 10rem;
+    @media (min-width: 1024px) {
+      right: 7rem;
     }
   }
 }

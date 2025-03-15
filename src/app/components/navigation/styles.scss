@@ -1,17 +1,120 @@
 .navigation{
-    ul{
+
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    label{
+        position: absolute;
+        right: 0;
+        top: calc(50% - 3px);
+    }
+    
+    #mobile__btn {
+        appearance: none;
+        display: block;
+        background-color: var(--primary-color);
+        width: 30px;
+        height: 4px;
+        border-radius: 2px;
+    }
+
+    @media (min-width: 1024px){
+        #mobile__btn{
+            display: none;
+        }
+    }
+
+    #mobile__btn::before,
+    #mobile__btn::after {
+    content: "";
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: var(--primary-color);
+        margin-top: -10px;
+        transition: 0.5s;
+        position: relative;
+        border-radius: 2px;
+    }
+
+    #mobile__btn::after{
+        margin-top: 16px;
+    }
+
+    #mobile__btn:checked {
+        background-color: transparent;
+    }
+
+    #mobile__btn:checked:before {
+        transform: rotate(135deg);
+        top: 9.5px;
+    }
+
+    #mobile__btn:checked::after {
+        transform: rotate(-135deg);
+        top: -9.5px;
+    }
+
+    label:has(#mobile__btn:checked) ~ ul{
         display: flex;
+        z-index: 2;
+        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+
+        @media screen and (min-width: 1024px ) {
+            animation: unset;
+        }
+    }
+
+    @keyframes slide-in-top {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 0;
+        }
+        100% {
+            -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+            opacity: 1;
+        }
+    }
+
+    ul{
         width: fit-content;
         gap: 18px;
         height: 100%;
         align-items: center;
         justify-content: center;
-        color: var(--primary-color); 
+        color: var(--primary-color);
+        display: none;
+        opacity: 0;
+        background-color: white;
+        border-radius: 10px;
+        padding: 0px 14px;
+        
         li{
+            width: fit-content;
             a{
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 500;
+
+                @media (min-width:1024px) {
+                    font-size: 18px;
+                }
             }
+        }
+
+
+    }
+
+    @media screen and (min-width: 1024px) {
+        ul{
+            display: flex;
+            opacity: 1;
+            transform: unset;
         }
     }
 }

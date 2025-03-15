@@ -8,17 +8,23 @@ export const SocialMedias = () => {
       <span>contatos:</span>
       <ul>
         <li>
-          <a href="#">
+          <a href="https://web.whatsapp.com/send?phone=5516992627740">
             <FaWhatsapp />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/clinicassemprevisao?igsh=NGJpZGFlY3Zjangz"
+            target="blank"
+          >
             <FaInstagram />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="https://www.facebook.com/share/1AToDosLnA/?mibextid=wwXIfr"
+            target="blank"
+          >
             <FaFacebook />
           </a>
         </li>

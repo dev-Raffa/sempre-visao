@@ -1,9 +1,8 @@
-import Image from "next/image"
 import { TeamCard, TeamCardArgs } from "../../cards/team"
 import './styles.scss'
 import Camila from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 14.50.26.jpeg"
 import Barbara from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 14.59.57.jpeg"
-import Breno  from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 17.42.56.jpeg"
+import Breno  from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 17.42.56.jpg"
 
 const team: TeamCardArgs[] = [
     {

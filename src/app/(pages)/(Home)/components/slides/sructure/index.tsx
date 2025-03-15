@@ -15,19 +15,19 @@ export const StructureCarousel = ()=>{
             <figure key={`carousel-structure-item-1`} className="carousel-item">
                 <Image src={image1.src} alt="" fill></Image>
             </figure>
-            <figure key={`carousel-structure-item-1`} className="carousel-item">
+            <figure key={`carousel-structure-item-2`} className="carousel-item">
                 <Image src={image2.src} alt="" fill></Image>
             </figure>
-            <figure key={`carousel-structure-item-1`} className="carousel-item">
+            <figure key={`carousel-structure-item-3`} className="carousel-item">
                 <Image src={image3.src} alt="" fill></Image>
             </figure>
-            <figure key={`carousel-structure-item-1`} className="carousel-item">
+            <figure key={`carousel-structure-item-4`} className="carousel-item">
                 <Image src={image4.src} alt="" fill></Image>
             </figure>
-            <figure key={`carousel-structure-item-1`} className="carousel-item">
+            <figure key={`carousel-structure-item-5`} className="carousel-item">
                 <Image src={image5.src} alt="" fill></Image>
             </figure>
-            <figure key={`carousel-structure-item-1`} className="carousel-item">
+            <figure key={`carousel-structure-item-6`} className="carousel-item">
                 <Image src={image6.src} alt="" fill></Image>
             </figure>
         </ul>
