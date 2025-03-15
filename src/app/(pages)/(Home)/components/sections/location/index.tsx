@@ -4,12 +4,15 @@ import { useEffect, useState } from 'react';
 import './styles.scss'
 
 export const LocationSection = ()=>{
-  const [windowWidth, setWindowWidth] = useState<number>(0 | window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState<number>(0);
   const [margin, setMargins] = useState<number>(
     windowWidth>= 720 ? 144 : windowWidth >= 1024 ? 244 : 24 
   )
   
+  
   useEffect(() => {
+    setWindowWidth(window.innerWidth);
+  
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
       setMargins(windowWidth >= 720 ? 144 : windowWidth >= 1024 ? 244 : 24);
@@ -20,7 +23,8 @@ export const LocationSection = ()=>{
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [window]);
+  }, []);
+    
     return (
         <section id="Location">
             <div>
@@ -34,7 +38,6 @@ export const LocationSection = ()=>{
                 style={{border:0, borderRadius: 10}}  
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade">
-
             </iframe>
         </section>
     )
