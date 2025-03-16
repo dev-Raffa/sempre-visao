@@ -47,7 +47,7 @@ export const Footer = ()=> {
             <ul className="footer-links">
               <li>
                 <Link
-                  href="https://app.whatsapp.com/send?phone=5516992627740"
+                  href="https:///wa.me/5516992627740"
                   target="_blank"
                 >
                   Consultas
@@ -55,17 +55,17 @@ export const Footer = ()=> {
               </li>
               <li>
                 <Link
-                  href="https://app.whatsapp.com/send?phone=5516992627740"
+                  href="https:///wa.me/5516992627740"
                   target="_blank"
                 >
                   Cirurgias
                 </Link>
               </li>
               <li>
-                <Link href="https://app.whatsapp.com/send?phone=5516992627740" target="_blank">Exames</Link>
+                <Link href="https:///wa.me/5516992627740" target="_blank">Exames</Link>
               </li>
               <li>
-                <Link href="https://app.whatsapp.com/send?phone=5516992627740" target="_blank">Resultado de exames</Link>
+                <Link href="https:///wa.me/5516992627740" target="_blank">Resultado de exames</Link>
               </li>
             </ul>
           </nav>
@@ -82,7 +82,7 @@ export const Footer = ()=> {
             </li>
             <li>
               <FaWhatsapp />
-              <a href="https://app.whatsapp.com/send?phone=5516992627740" target="_blank">
+              <a href="https:///wa.me/5516992627740" target="_blank">
                 16 99262-7740
               </a>
             </li>

@@ -9,7 +9,7 @@ export const AboutSection = ()=>{
             <section>
                 <article>
                     <p>Com intuito de trazer ainda mais qualidade de vida e saúde para os pacientes das Clínicas Sempre Sorrindo, o grupo inova mais uma vez e em 2025 inaugura a Sempre Visão, a clínica oftalmológica da sua família.</p>
-                    <p>Trazendo o conceito do grupo Sempre Sorrindo com serviço de excelência e tecnologia de ponta, com os melhores profissionais do mercado e uma estrutura completa, a Sempre Visão conta com grande variedade de exames e um centro cirúrgico próprio o que garante para os nossos pacientes muito mais conforto, segurança e tranquilidade, possibilitando cirurgias de catarata sem filas, consultas vista e exames especializados.</p>
+                    <p>Trazendo o conceito do grupo Sempre Sorrindo com serviço de excelência e tecnologia de ponta, com os melhores profissionais do mercado e uma estrutura completa, a Sempre Visão conta com grande variedade de exames e um centro cirúrgico próprio o que garante para os nossos pacientes muito mais conforto, segurança e tranquilidade, possibilitando cirurgias de catarata sem filas, consultas de vista e exames especializados.</p>
                     <p>Pois ver é viver. E disso, a gente entende.</p>
                 </article>
                 <figure>
