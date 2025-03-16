@@ -8,7 +8,7 @@ export const SocialMedias = () => {
       <span>contatos:</span>
       <ul>
         <li>
-          <a href="https:///wa.me/5516992627740">
+          <a href="https:///wa.me/5516992627740" target='_blank'>
             <FaWhatsapp />
           </a>
         </li>
