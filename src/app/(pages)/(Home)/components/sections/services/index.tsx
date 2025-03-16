@@ -27,7 +27,7 @@ const services: serviceCardArgs[] = [
     description:
       'Diversos tipos de cirurgias oftalmológicas são realizadas em nossa clínica. Damos destaque para a cirurgia da catarata, feita de forma rápida, segura e sem filas.',
     link: 'https:///wa.me/5516992627740',
-    textLink: 'Entre em contato',
+    textLink: 'Agende Online',
     icon: <FaHandHoldingMedical />
   },
   {
