@@ -1,11 +1,10 @@
 import './styles.scss'
-import image1 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.07.02-_1_.webp'
-import image2 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.07.03-_1_.webp'
-import image3 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.06.36.webp'
-import image4 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.07.03-_2_.webp'
-import image5 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.07.03-_3_.webp'
-import image6 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.06.36-_4_.webp'
-import { ReactNode } from "react"
+import image1 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.06.36.webp'
+import image2 from '../../../../../../../public/images/WhatsApp Image 2025-03-16 at 08.32.18_4f256de1.jpg'
+import image3 from '../../../../../../../public/images/WhatsApp Image 2025-03-16 at 08.32.44_b69e60cb.jpg'
+import image4 from '../../../../../../../public/images/WhatsApp Image 2025-03-16 at 08.33.08_283f9759.jpg'
+import image5 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.06.36-_4_.webp'
+import image6 from '../../../../../../../public/WhatsApp-Image-2025-03-13-at-18.07.03-_2_.webp'
 import Image from "next/image"
 
 

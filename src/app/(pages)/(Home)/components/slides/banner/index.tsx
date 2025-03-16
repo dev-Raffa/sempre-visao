@@ -10,7 +10,7 @@ import './styles.scss'
 export const CarouselBanner = () => {
  const images = [image1, image2]
  const [currentIndex, setCurrentIndex] = useState(0);
-const [nextIndex, setNextIndex] = useState(1);
+  const [nextIndex, setNextIndex] = useState(1);
   const [transition, setTransition] = useState(false);
  
 
@@ -27,28 +27,11 @@ const [nextIndex, setNextIndex] = useState(1);
     return () => clearInterval(interval);
   }, [images]);
 
-  const goToPrevious = () => {
-    setNextIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-    setTransition(true);
-    setTimeout(() => {
-      setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-      setTransition(false);
-    }, 500);
-  };
-
-  const goToNext = () => {
-    setNextIndex((prevIndex) => (prevIndex + 1) % images.length);
-    setTransition(true);
-    setTimeout(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-      setTransition(false);
-    }, 500);
-  };
 
   return (
     <div className="carousel">
       <figure>
-        <Image  className={`current ${transition ? 'fade-out' : ''}`} src={images[currentIndex]} alt={`Imagem ${currentIndex + 1}`} fill />
+        <Image  className={`current ${transition ? 'fade-out' : ''}`} src={images[currentIndex]} alt={`Imagem ${currentIndex + 1}`} fill priority />
       </figure>
     </div>
   );

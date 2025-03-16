@@ -4,26 +4,41 @@
     align-items: center;
     width: 100%;
     min-height: 600px ;
-    padding: 24px 12px;
+    padding: 48px 12px;
     justify-content: center;
-    gap:48px;
+    gap:24px;
 
 
     div{
         h2{
-            font-size: 48px;
+            font-size: 36px;
             color: var(--primary-color);
+            font-weight: 600;
+            text-align: center;
         }
 
+        @media (min-width: 1024px){
+            font-size: 48px;
+        }
     }
 
     ul{
         display:flex;
         align-items: center;
-        padding: 0px 12px;
+        padding: 0px 32px;
         gap: 32px;
         width:100%;
         overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        //scrollbar-color: transparent transparent;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        
     }
 
     @media screen and (min-width: 720px) {

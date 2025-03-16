@@ -1,8 +1,5 @@
-"use client"
 
-import { ArrowUpRight } from "lucide-react"
 import Link from "next/link"
-import { type FormEvent, useState } from "react"
 import "./styles.scss"
 import { Logo } from "../../logo"
 import { BsTelephone } from "react-icons/bs";
@@ -10,13 +7,6 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { GoLocation } from "react-icons/go"
 
 export const Footer = ()=> {
-  const [email, setEmail] = useState("")
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault()
-    // Implement newsletter subscription logic here
-    setEmail("")
-  }
 
   return (
     <footer className="footer">
@@ -39,13 +29,13 @@ export const Footer = ()=> {
                 <Link href="#About">A Sempre Visão</Link>
               </li>
               <li>
-                <Link href="/especialidades">Especialidades</Link>
+                <Link href="#Servicos">Serviços</Link>
               </li>
               <li>
-                <Link href="/servicos">Serviços</Link>
+                <Link href="#Structure">Estrutura</Link>
               </li>
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="#Team">Equipe</Link>
               </li>
             </ul>
           </nav>
@@ -56,16 +46,26 @@ export const Footer = ()=> {
           <nav aria-label="Links de Serviços">
             <ul className="footer-links">
               <li>
-                <Link href="#">Consultas</Link>
+                <Link
+                  href="https://app.whatsapp.com/send?phone=5516992627740"
+                  target="_blank"
+                >
+                  Consultas
+                </Link>
               </li>
               <li>
-                <Link href="#">Cirurgias</Link>
+                <Link
+                  href="https://app.whatsapp.com/send?phone=5516992627740"
+                  target="_blank"
+                >
+                  Cirurgias
+                </Link>
               </li>
               <li>
-                <Link href="#">Exames</Link>
+                <Link href="https://app.whatsapp.com/send?phone=5516992627740" target="_blank">Exames</Link>
               </li>
               <li>
-                <Link href="#">Resultado de exames</Link>
+                <Link href="https://app.whatsapp.com/send?phone=5516992627740" target="_blank">Resultado de exames</Link>
               </li>
             </ul>
           </nav>
@@ -82,12 +82,12 @@ export const Footer = ()=> {
             </li>
             <li>
               <FaWhatsapp />
-              <a href="#" target="_blank">
+              <a href="https://app.whatsapp.com/send?phone=5516992627740" target="_blank">
                 16 99262-7740
               </a>
             </li>
             <li>
-              <GoLocation style={{ fontSize: '36px' }} />
+              <GoLocation style={{ fontSize: '24px' }} />
               <address>
                 R. São Sebastião, 614 - Centro, Ribeirão Preto - SP, 14015-040
               </address>

@@ -17,7 +17,7 @@ export const ServiceCard = (args: serviceCardArgs) => {
         <h3>{args.title}</h3>
         <p> {args.description}</p>
       </section>
-      <a href={args.link}>{args.textLink}</a>
+      <a href={args.link} target='_blank'>{args.textLink}</a>
     </article>
   );
 };

@@ -7,24 +7,30 @@
     height: 150px;
     overflow: hidden;
     width: 100%;
-    min-width: 320px;
+    min-width: 280px;
     max-width: 350px;
     height: 400px;
 
+    scroll-snap-align: center;
 
     figcaption{
         position: absolute;
-        bottom: 16px;
-        width: 80%;
-        left: calc((100% - 80%) / 2);
-        height: 76px;
+        bottom: 8px;
+        width: 90%;
+        left: calc((100% - 90%) / 2);
+        height: 80px;
         background-color: white;
+        opacity: 0.8;
+        backdrop-filter: blur(1);
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding:16px;
         border-radius: 10px;
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 16px;
     }
     
 }

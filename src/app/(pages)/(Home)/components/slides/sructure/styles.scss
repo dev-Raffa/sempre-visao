@@ -3,8 +3,12 @@
     min-height: 450px;
     gap: 36px;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
+    @media (min-width: 1024px){
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+        
     figure{
         position: relative;
         width: 100%;

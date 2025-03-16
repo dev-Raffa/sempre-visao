@@ -8,13 +8,21 @@ $author-color: #111827;
 $star-color: #FBBF24;
 $inactive-color: #d1d5db;
 
-$card-width-center: 400px;
+$card-width-center: 280px;
 $card-height-center: 300px;
-$card-width-side: 300px;
+$card-width-side: 200px;
 $card-height-side: 250px;
 
 $transition-duration: 900ms;
 $transition-timing: ease-in-out;
+
+@media (min-width: 1024px){
+  $card-width-center: 400px;
+  $card-height-center: 300px;
+  $card-width-side: 300px;
+  $card-height-side: 250px;
+  
+}
 
 // Testimonial Section
 .testimonial-section {
@@ -56,8 +64,8 @@ $transition-timing: ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: $primary-color;
   color: white;
@@ -65,15 +73,16 @@ $transition-timing: ease-in-out;
   transition: background-color 0.2s;
   border: none;
   cursor: pointer;
+
+  @media (min-width:1024px){
+    width: 3rem;
+    height: 3rem;
+  }
   
   &:hover {
     background-color: $primary-hover;
   }
   
-  &:focus {
-    outline: 2px solid $primary-hover;
-    outline-offset: 2px;
-  }
   
   &.nav-button-prev {
     left: 0px;
@@ -118,20 +127,30 @@ $transition-timing: ease-in-out;
   
   &.left {
     z-index: 10;
-    opacity: 0.7;
+    opacity: 0;
     filter: blur(1px);
     width: $card-width-side;
     height: $card-height-side;
     left: calc(50% - 320px);
+
+    @media (min-width: 720px){
+      opacity: 0.7;
+    }
   }
   
   &.right {
     z-index: 10;
-    opacity: 0.7;
+    opacity: 0;
+    display: none;
     filter: blur(1px);
     width: $card-width-side;
     height: $card-height-side;
     right: calc(50% - 320px);
+
+      @media (min-width: 720px){
+      opacity: 0.7;
+      display: unset;
+    }
   }
 }
 
@@ -145,7 +164,7 @@ $transition-timing: ease-in-out;
 
 .testimonial-text {
   color: $text-color;
-  font-size: 0.875rem;
+  font-size: 14px;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;

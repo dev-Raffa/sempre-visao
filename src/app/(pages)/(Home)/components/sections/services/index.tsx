@@ -9,31 +9,31 @@ const services: serviceCardArgs[] = [
   {
     title: 'Consultas',
     description:
-      'Agende sua consulta com nossos médicos oftalmologistas altamente capacitados, que oferecem atendimento personalizado e de excelência. Com tecnologia de ponta e muita experiência, nossa clínica se dedica a cuidar da saúde dos seus olhos, garantindo diagnósticos precisos e tratamentos eficazes. Não espere mais para cuidar da sua visão, agende agora sua consulta.',
-    link: '#',
+      'Consultas de vista com oftalmologistas capacitados para cuidar da saúde dos seus olhos, garantindo diagnósticos precisos e tratamentos eficazes.',
+    link: 'https://app.whatsapp.com/send?phone=5516992627740',
     textLink: 'Agende Online',
     icon: <TbReportMedical />
   },
   {
     title: 'Exames',
     description:
-      'Realize exames oftalmológicos completos com a mais alta tecnologia e precisão. Em nossa clínica, contamos com equipamentos modernos e uma equipe especializada para garantir um diagnóstico seguro e preciso. Desde exames de rotina até avaliações específicas, agende agora o seu exame.',
-    link: '#',
+      'Diversidade em exames oftalmológicos com equipamentos modernos para garantir um diagnóstico seguro e preciso. Realize exames de rotina até avaliações específicas.',
+    link: 'https://app.whatsapp.com/send?phone=5516992627740',
     textLink: 'Agende Online',
     icon: <FaHeartbeat />
   },
   {
     title: 'Cirurgias',
     description:
-      'Na Sempre Visão, oferecemos uma gama completa de cirurgias oftalmológicas, realizadas por profissionais experientes e com o uso das mais avançadas técnicas e tecnologias. Entre as opções, destacamos a cirurgia de catarata, feita de forma rápida e segura, sem filas e com toda a atenção que você merece. Nossa clínica é referência em qualidade e cuidado, proporcionando a você um atendimento humanizado e eficaz. Agende sua avaliação e recupere sua visão com confiança.',
-    link: '#',
+      'Diversos tipos de cirurgias oftalmológicas são realizadas em nossa clínica. Damos destaque para a cirurgia da catarata, feita de forma rápida, segura e sem filas.',
+    link: 'https://app.whatsapp.com/send?phone=5516992627740',
     textLink: 'Entre em contato',
     icon: <FaHandHoldingMedical />
   },
   {
     title: 'Resultado dos Exames',
-    description: 'Acesse aqui os resultados dos seus exames',
-    link: '#',
+    description: 'Acesse aqui os resultados dos seus exames.',
+    link: 'https://app.whatsapp.com/send?phone=5516992627740',
     textLink: 'Em breve',
     icon: <FaLaptopMedical />
   }

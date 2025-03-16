@@ -4,15 +4,20 @@
     align-items: center;
     width: 100%;
     min-height: 600px ;
-    padding: 24px 12px;
+    padding: 48px 12px;
     justify-content: center;
-    gap:48px;
+    gap:36px;
 
 
     div{
         h2{
-            font-size: 48px;
+            font-size: 36px;
             color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        @media (min-width: 1024px){
+            font-size: 48px;
         }
     }
 
