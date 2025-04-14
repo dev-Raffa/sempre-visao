@@ -83,7 +83,7 @@ export default async function DynamicPage({
         <ul>
           {relatedPosts.map((post, index) => (
             <li key={index}>
-              <Link href={`http://localhost:3000/blog/${post.slug}`}>
+              <Link href={`/blog/${post.slug}`}>
                 <figure>
                   <Image
                     src={
