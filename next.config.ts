@@ -1,24 +1,32 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   sassOptions: {
-    includePaths: ['./styles'],
+    includePaths: ['./styles']
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true
   },
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'backup.clinicassempresorrindo.com.br',
+        port: '',
+        pathname: '/storage/app/uploads/**',
+        search: ''
+      }
+    ]
   },
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
-    parallelServerCompiles: true,
-  },
-  
-}
+    parallelServerCompiles: true
+  }
+};
 
 export default nextConfig;
 
