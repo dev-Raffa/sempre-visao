@@ -3,7 +3,6 @@
 import { TeamCard, TeamCardArgs } from "../../cards/team"
 import './styles.scss'
 import Camila from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 14.50.26.jpeg"
-import Barbara from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 14.59.57.jpeg"
 import Breno  from "../../../../../../../public/images/WhatsApp Image 2025-03-13 at 17.42.56.jpg"
 import Vanessa from '../../../../../../../public/images/WhatsApp Image 2025-03-16 at 08.41.12_d5476c23.jpg';
 import { useRef, useState } from "react"
@@ -18,11 +17,6 @@ const team: TeamCardArgs[] = [
         name:'Dra. Camila Cardoso S. B. Alcântara ',
         crm: '174.084',
         imageUrl: Camila.src
-    },
-    {
-        name:'Dra. Bárbara Freitas de Oliveira',
-        crm: '193.098',
-        imageUrl: Barbara.src
     },
     {
         name:'Dra. Vanessa Giachetto Bender',
