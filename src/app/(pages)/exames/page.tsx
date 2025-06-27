@@ -2,14 +2,14 @@ import './styles.scss';
 
 import Image from 'next/image';
 import { exams } from './data/exams';
-import defaultImage from '../../../../public/images/placeholder.svg';
+import teamImage from '../../../../public/images/IMG_0898.webp';
 import Link from 'next/link';
 
 export default function ExamsPage() {
   return (
     <section id="ExamsPage">
       <figure>
-        <Image src={defaultImage} alt="image-test" fill></Image>
+        <Image src={teamImage} alt="equipe de médicos realizando um exame oftalmológico" fill></Image>
       </figure>
       <article>
         <h1>

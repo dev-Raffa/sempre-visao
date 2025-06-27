@@ -1,6 +1,7 @@
 #PostPage{
     padding: 0px 12px 72px;
     color: var(--secondary-color);
+    max-width: 1200px;
     
     @media (min-width: 1024px) {
         padding: 0px 52px 72px;
