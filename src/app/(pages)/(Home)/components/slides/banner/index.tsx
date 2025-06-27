@@ -1,18 +1,16 @@
-'use client'
+'use client';
 
 import React, { useState, useEffect } from 'react';
-import image1 from "../../../../../../../public/images/Banner-Site-Sempre-Visão_01Prancheta-1.png"
-import image2 from "../../../../../../../public/images/Banner-Site-Sempre-Visão_02Prancheta-1.png"
+import image1 from '../../../../../../../public/images/Banner-Site-Sempre-Visão_01Prancheta-1.png';
+import image2 from '../../../../../../../public/images/Banner-Site-Sempre-Visão_02Prancheta-1.png';
 import Image from 'next/image';
-import './styles.scss'
-
+import './styles.scss';
 
 export const CarouselBanner = () => {
- const images = [image1, image2]
- const [currentIndex, setCurrentIndex] = useState(0);
+  const images = [image1, image2];
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(1);
   const [transition, setTransition] = useState(false);
- 
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -27,11 +25,16 @@ export const CarouselBanner = () => {
     return () => clearInterval(interval);
   }, [images]);
 
-
   return (
     <div className="carousel">
       <figure>
-        <Image  className={`current ${transition ? 'fade-out' : ''}`} src={images[currentIndex]} alt={`Imagem ${currentIndex + 1}`} fill priority />
+        <Image
+          className={`current ${transition ? 'fade-out' : ''}`}
+          src={images[currentIndex]}
+          alt={`Imagem ${currentIndex + 1}`}
+          fill
+          priority
+        />
       </figure>
     </div>
   );

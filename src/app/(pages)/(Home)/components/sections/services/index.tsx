@@ -43,7 +43,7 @@ export const ServicesSection = () => {
   return (
     <section id="Services">
       <div>
-          <h2>O que fazemos</h2>
+        <h2>O que fazemos</h2>
       </div>
       <ul>
         {services.map((service, index) => {

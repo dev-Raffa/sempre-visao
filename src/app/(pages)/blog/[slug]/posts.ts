@@ -1,4 +1,4 @@
-import { IPostList } from "./post.interface";
+import { IPostList } from './post.interface';
 
 export const posts: IPostList = [
   {

@@ -1,5 +1,5 @@
 import './styles.scss';
-import defaultImage from "../../../../../public/images/placeholder.svg";
+import defaultImage from '../../../../../public/images/placeholder.svg';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { IPostList } from './post.interface';
@@ -13,21 +13,24 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = (await params).slug;
   const page = posts.find((page) => page.slug === slug);
-  
+
   return {
-    description: page?.description ,
+    description: page?.description,
     alternates: {
-      canonical: `https://semprevisão.com.br/blog/${slug}`,
+      canonical: `https://semprevisão.com.br/blog/${slug}`
     }
   };
 }
 
-function getRelatedPosts(slug: string){
-  const relatedPosts: IPostList =[];
-  
+function getRelatedPosts(slug: string) {
+  const relatedPosts: IPostList = [];
+
   while (relatedPosts.length < 4) {
     for (const post of posts) {
-      if (post.slug !== slug && !relatedPosts.some((p) => p.slug === post.slug)) {
+      if (
+        post.slug !== slug &&
+        !relatedPosts.some((p) => p.slug === post.slug)
+      ) {
         relatedPosts.push(post);
       }
     }
@@ -55,7 +58,7 @@ export default async function DynamicPage({
   if (!page) {
     return <h1>404 - Página não encontrada</h1>;
   }
-  
+
   const relatedPosts = getRelatedPosts(page.slug);
 
   return (
@@ -78,7 +81,7 @@ export default async function DynamicPage({
         </h1>
         <section dangerouslySetInnerHTML={{ __html: page.content }} />
       </article>
-      <section id= "RelatedPosts">
+      <section id="RelatedPosts">
         <h2>Posts relacionados:</h2>
         <ul>
           {relatedPosts.map((post, index) => (
@@ -88,13 +91,13 @@ export default async function DynamicPage({
                   <Image
                     src={
                       post.imageUrl
-                      ? `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${post.imageUrl}`
-                      : defaultImage
+                        ? `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${post.imageUrl}`
+                        : defaultImage
                     }
                     alt={post.title}
                     fill
                     quality={75}
-                    ></Image>
+                  ></Image>
                 </figure>
                 <h3>{post.title}</h3>
                 <p>{post.description}</p>

@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import './styles.scss';
-import defaultImage from "../../../../../../../public/images/placeholder.svg";
+import defaultImage from '../../../../../../../public/images/placeholder.svg';
 import { posts } from '@/app/(pages)/blog/[slug]/posts';
 import Link from 'next/link';
 
 export const RecentPostsSection: React.FC = () => {
   const highlightedPost = posts[0]; // Assuming the first post is the highlighted one
   const smallPosts = posts.slice(1, 5); // Get the next 4 posts
-  
+
   return (
     <section className="recentPostsSection">
       <div>
@@ -34,7 +34,10 @@ export const RecentPostsSection: React.FC = () => {
             <p className={'postExcerpt'}>{highlightedPost.description}</p>
           </div>
           <div className="action">
-            <Link href={`/blog/${highlightedPost.slug}`} className={'readMoreButton'}>
+            <Link
+              href={`/blog/${highlightedPost.slug}`}
+              className={'readMoreButton'}
+            >
               Continuar lendo
             </Link>
           </div>

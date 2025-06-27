@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Work_Sans } from 'next/font/google';
 import './styles/globals.css';
-import'./styles/theme.scss'
+import './styles/theme.scss';
 import { Header } from './components/layout/header';
 import { Main } from './components/layout/main';
 import { Footer } from './components/layout/footer';

@@ -1,13 +1,11 @@
+import Link from 'next/link';
+import './styles.scss';
+import { Logo } from '../../logo';
+import { BsTelephone } from 'react-icons/bs';
+import { FaWhatsapp } from 'react-icons/fa6';
+import { GoLocation } from 'react-icons/go';
 
-import Link from "next/link"
-import "./styles.scss"
-import { Logo } from "../../logo"
-import { BsTelephone } from "react-icons/bs";
-import { FaWhatsapp } from "react-icons/fa6";
-import { GoLocation } from "react-icons/go"
-
-export const Footer = ()=> {
-
+export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -46,26 +44,22 @@ export const Footer = ()=> {
           <nav aria-label="Links de Serviços">
             <ul className="footer-links">
               <li>
-                <Link
-                  href="https:///wa.me/5516992627740"
-                  target="_blank"
-                >
+                <Link href="https:///wa.me/5516992627740" target="_blank">
                   Consultas
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https:///wa.me/5516992627740"
-                  target="_blank"
-                >
+                <Link href="https:///wa.me/5516992627740" target="_blank">
                   Cirurgias
                 </Link>
               </li>
               <li>
-                <Link href="https:///wa.me/5516992627740" target="_blank">Exames</Link>
+                <Link href="/exames">Exames</Link>
               </li>
               <li>
-                <Link href="https:///wa.me/5516992627740" target="_blank">Resultado de exames</Link>
+                <Link href="https:///wa.me/5516992627740" target="_blank">
+                  Resultado de exames
+                </Link>
               </li>
             </ul>
           </nav>
@@ -105,5 +99,4 @@ export const Footer = ()=> {
       </div>
     </footer>
   );
-}
-
+};
