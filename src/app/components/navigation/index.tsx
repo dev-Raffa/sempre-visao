@@ -14,10 +14,10 @@ export const Navigation = () => {
           <a href="/#About">A Sempre Visão</a>
         </li>
         <li>
-          <a href="/#Services">Serviços</a>
+          <a href="/exames">Exames</a>
         </li>
         <li>
-          <a href="/#Structure">Estrutura</a>
+          <a href="/cirurgias">Cirurgias</a>
         </li>
         <li>
           <a href="/#Team">Equipe</a>

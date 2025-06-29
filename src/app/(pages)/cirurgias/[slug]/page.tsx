@@ -4,7 +4,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 import Link from 'next/link';
-import { exams, IExam } from '../../exames/data/exams';
+import { ISurgery, surgeries } from '../data/surgeries';
+import { shuffle } from '@/lib/utils';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -12,24 +13,25 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = (await params).slug;
-  const page = exams.find((page) => page.slug === slug);
+  const page = surgeries.find((page) => page.slug === slug);
 
   return {
     description: page?.description,
     alternates: {
-      canonical: `https://semprevisão.com.br/exames/${slug}`
+      canonical: `https://semprevisão.com.br/cirurgias/${slug}`
     }
   };
 }
 
-function getMoreExams(slug: string) {
-  const moreExams: IExam[] = exams.filter((exam) => exam.slug !== slug);
-
-  return moreExams.slice(0, 4);
+function getMoreSurgeries(slug: string) {
+  const moreSurgeries: ISurgery[] = shuffle<ISurgery>(
+    surgeries.filter((surgery) => surgery.slug !== slug)
+  );
+  return moreSurgeries.slice(0, 4);
 }
 
 export async function generateStaticParams() {
-  const pages = exams;
+  const pages = surgeries;
 
   return pages.map((page) => ({
     slug: page.slug
@@ -42,8 +44,8 @@ export default async function DynamicPage({
   params: { slug: string };
 }) {
   const { slug } = await params;
-  const page = exams.find((page) => page.slug === slug);
-  const moreExams = getMoreExams(slug);
+  const page = surgeries.find((page) => page.slug === slug);
+  const moreSurgeries = getMoreSurgeries(slug);
 
   if (!page) {
     return <h1>404 - Página não encontrada</h1>;
@@ -64,14 +66,14 @@ export default async function DynamicPage({
         <section id="MoreExams">
           <h2>Mais Exames:</h2>
           <ul>
-            {moreExams.map((exam) => {
+            {moreSurgeries.map((surgery) => {
               return (
-                <li key={exam.label}>
-                  <Link href={`${exam.slug}`}>
+                <li key={surgery.label}>
+                  <Link href={`${surgery.slug}`}>
                     <article>
                       <section>
-                        <h3>{exam.label}</h3>
-                        <p>{exam.description}</p>
+                        <h3>{surgery.label}</h3>
+                        <p>{surgery.description}</p>
                       </section>
                     </article>
                   </Link>

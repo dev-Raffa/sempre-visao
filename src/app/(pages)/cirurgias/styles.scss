@@ -1,0 +1,107 @@
+#ExamsPage{
+    padding: 0px 12px 72px;
+    color: var(--secondary-color);
+    max-width: 1200px;
+
+    @media (min-width: 1024px) {
+        padding: 0px 52px 72px;
+    }
+
+
+    figure{
+        height: 35vh;
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+        
+        img{
+            border-radius: 12px;
+            object-fit: cover;
+        }
+        
+        @media screen and (width >= 1024px) {
+            height: calc(-150px + 100dvh);
+        }
+    }
+
+    article{
+        h1 {
+            font-size: 24px; 
+            margin-bottom: unset;
+            text-align: start;
+            font-weight: 700;
+            padding: 12px 0px;
+    
+            @media (min-width: 1024px) {
+                font-size: 48px;
+            } 
+        }
+        & p{
+            font-size: 22px;
+            font-weight: 500;
+            padding-bottom: 12px;
+        }
+    
+        section{
+            p{  
+                font-size: 18px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    section{
+        h2{
+            font-weight: 700;
+            font-size: 22px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 18;
+        }
+        .ExamsList{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            padding: 12px 0px;
+    
+            li{
+                padding: 4px 12px;
+                padding-bottom: 24px;
+                border-radius: 5px;
+                box-shadow: 0 0 3px 1px #00000054;
+    
+                h3{
+                    font-size: 18px;
+                    font-weight: 700;
+                    height: 60px;
+                    padding-top: 8px;
+                }
+                p{
+                    display: -webkit-box;
+                    line-clamp: 3;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding-bottom: 0;
+                }
+    
+            }
+            
+            @media (min-width: 640px) {
+                grid-template-columns:  repeat(2, 1fr);
+    
+            }
+            @media (min-width: 768px) {
+                grid-template-columns:  repeat(3, 1fr);
+                padding: 24px 0px;
+            }
+            @media (min-width: 1024px) {
+                grid-template-columns:  repeat(4, 1fr);
+                padding: 48px 0px;
+            }
+        }
+    }
+}

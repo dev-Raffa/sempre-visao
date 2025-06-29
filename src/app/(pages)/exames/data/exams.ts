@@ -9,7 +9,7 @@ import CYLImage from '../../../../../public/images/exames/Capsulotomia-Yag-Laser
 import PaqImage from '../../../../../public/images/exames/Paquimetria-Ultrassonica.webp';
 import MapImage from '../../../../../public/images/exames/Mapeamento de Retina.jpeg';
 
-export interface IExams
+export interface IExam
   extends Pick<
     IPost,
     'title' | 'description' | 'content' | 'slug' | 'tags' | 'imageUrl'
@@ -17,7 +17,7 @@ export interface IExams
   label: string;
 }
 
-export const exams: IExams[] = [
+export const exams: IExam[] = [
   {
     label: 'Tomografia de Coerência Óptica',
     title:

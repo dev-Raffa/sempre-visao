@@ -49,9 +49,7 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https:///wa.me/5516992627740" target="_blank">
-                  Cirurgias
-                </Link>
+                <Link href="/cirurgias">Cirurgias</Link>
               </li>
               <li>
                 <Link href="/exames">Exames</Link>

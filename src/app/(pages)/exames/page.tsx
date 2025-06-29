@@ -9,7 +9,11 @@ export default function ExamsPage() {
   return (
     <section id="ExamsPage">
       <figure>
-        <Image src={teamImage} alt="equipe de médicos realizando um exame oftalmológico" fill></Image>
+        <Image
+          src={teamImage}
+          alt="equipe de médicos realizando um exame oftalmológico"
+          fill
+        ></Image>
       </figure>
       <article>
         <h1>
@@ -57,9 +61,6 @@ export default function ExamsPage() {
                     <section>
                       <h3>{exam.label}</h3>
                       <p>{exam.description}</p>
-                      <div>
-                        <a href={`/${exam.slug}`}></a>
-                      </div>
                     </section>
                   </article>
                 </Link>

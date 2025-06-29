@@ -1,0 +1,257 @@
+#ExamPage{
+    padding: 0px 12px 72px;
+    color: var(--secondary-color);
+    max-width: 1200px;
+    
+    @media (min-width: 1024px) {
+        padding: 0px 52px 72px;
+    }
+
+    figure{
+        height: 35vh;
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+        
+        img{
+            border-radius: 12px;
+            object-fit: cover;
+        }
+        
+        @media screen and (width >= 1024px) {
+            height: calc(-150px + 100dvh);
+        }
+    }
+    
+    article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        min-height: 600px;
+        padding: 12px;
+        gap: 18px;
+        font-size: 18px;
+        
+        @media (width >= 1024px) {
+            font-size: 22px;
+            padding: 24px;
+        }
+
+        header{
+            height: fit-content;
+            padding: unset;   
+            padding-top: 12px;
+            margin-bottom: 12px;
+
+            h1 {
+                font-size: 24px; 
+                margin-bottom: unset;
+                text-align: start;
+                font-weight: 700;
+
+                @media (min-width: 1024px) {
+                    font-size: 48px;
+                } 
+            }
+        }
+
+        section{
+            width: 100%;
+            padding-bottom: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                font-size: 24px;
+                font-weight: 700;
+                margin-top: 16px;
+                width: 100%;
+
+                @media (width >= 1024px) {
+                    font-size: 36px;
+                }
+            }
+
+            p{
+                margin-top: 12px;
+                width: 100%;
+            }
+
+            ul{
+               padding-left: 20px;
+
+                li{
+                    margin-top: 10px;
+                    width: calc(100% - 12px);
+                    margin-bottom: 10px;
+                    list-style-type: disc;
+                    
+                    @media (width >= 1024px) {
+                        width: calc(100% - 24px);
+                    }    
+                }
+            }
+        }
+
+    }
+    
+}
+#MoreExams{
+    padding: 0px 12px 72px;
+    color: var(--secondary-color);
+
+    @media (min-width: 1024px) {
+        padding: 0px 52px 72px;
+    }
+    
+    h2 {
+        font-size: 24px; 
+        margin-bottom: 20px;
+        font-weight: 700;
+        padding: 12px 0px ;
+
+        @media (width >= 1024px) {
+            font-size: 48px;
+        } 
+    }
+    ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+
+        li{
+            padding: 4px 12px;
+            padding-bottom: 24px;
+            border-radius: 5px;
+            box-shadow: 0 0 3px 1px #00000054;
+            
+            
+            article{
+                min-height: unset;
+                padding: unset;
+
+                h3{
+                    font-size: 18px;
+                    font-weight: 700;
+                    height: 60px;
+                    padding-top: 8px;
+                }
+                p{
+                    display: -webkit-box;
+                    line-clamp: 3;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding-bottom: 0;
+                }
+            }    
+
+            &:nth-child(-n + 3){
+                display: none;
+                visibility: 0;
+            }
+
+            @media screen and (min-width: 680px) {
+                &:nth-child(-n + 1){
+                    display: flex;
+                    visibility: 1;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+                &:nth-child(-n + 2){
+                    display: flex;
+                    visibility: 1;
+                }
+            }
+
+            @media screen and (min-width: 1024px) {
+                &:nth-child(n){
+                    display: flex;
+                    visibility: 1;
+                }
+            }
+        }
+
+        @media (min-width: 640px) {
+                grid-template-columns:  repeat(2, 1fr);
+    
+            }
+            @media (min-width: 768px) {
+                grid-template-columns:  repeat(3, 1fr);
+            }
+            @media (min-width: 1024px) {
+                grid-template-columns:  repeat(4, 1fr);
+            }
+    }
+}
+
+.faq-section {
+    margin-top: 40px;
+    width: 100%;
+    text-align: start;
+}
+.faq-item {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.faq-item summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    outline: none; /* Remove o contorno padrão ao clicar */
+    display: block; /* Garante que a área de clique ocupe toda a largura */
+}
+.faq-item summary:hover {
+    background-color: #f9f9f9;
+}
+.faq-item p {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Adiciona um marcador de раскрытия/fechamento mais moderno (opcional) */
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+.faq-item summary::after {
+    content: '+';
+    float: right;
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: normal;
+    color: #0056b3;
+}
+.faq-item[open] summary::after {
+    content: '−';
+}
+
+.cta-button {
+    align-self: center;
+    width: fit-content;
+    padding: 8px 12px;
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #218838;
+}
