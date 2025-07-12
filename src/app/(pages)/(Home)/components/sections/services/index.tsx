@@ -33,8 +33,8 @@ const services: serviceCardArgs[] = [
   {
     title: 'Resultado dos Exames',
     description: 'Acesse aqui os resultados dos seus exames.',
-    link: 'https:///wa.me/5516992627740',
-    textLink: 'Em breve',
+    link: 'https://semprevisao.sivoe.med.br/',
+    textLink: 'Acesse agora',
     icon: <FaLaptopMedical />
   }
 ];
