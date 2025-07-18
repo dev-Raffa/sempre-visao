@@ -107,6 +107,14 @@
                     font-size: 18px;
                 }
             }
+
+            &:last-child{
+                a{
+                    background-color: var(--tertiary-color);
+                    padding: 8px 12px;
+                    border-radius: 5px;
+                }
+            }
         }
 
 

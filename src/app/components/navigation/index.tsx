@@ -11,16 +11,21 @@ export const Navigation = () => {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/#About">A Sempre Visão</a>
+          <a href="/cirurgias">Cirurgias</a>
         </li>
         <li>
           <a href="/exames">Exames</a>
         </li>
         <li>
-          <a href="/cirurgias">Cirurgias</a>
+          <a href="#Team">Equipe</a>
         </li>
         <li>
-          <a href="/#Team">Equipe</a>
+          <a
+            href="https://semprevisao.sivoe.med.br/"
+            target="_blank"
+          >
+            Resultado de Exames
+          </a>
         </li>
       </ul>
     </nav>

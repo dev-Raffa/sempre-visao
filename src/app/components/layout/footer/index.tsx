@@ -55,7 +55,7 @@ export const Footer = () => {
                 <Link href="/exames">Exames</Link>
               </li>
               <li>
-                <Link href="https:///wa.me/5516992627740" target="_blank">
+                <Link href="https://semprevisao.sivoe.med.br/" target="_blank">
                   Resultado de exames
                 </Link>
               </li>
