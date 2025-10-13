@@ -3,11 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import image1 from '../../../../../../../public/images/Banner-Site-Sempre-Visão_01Prancheta-1.png';
 import image2 from '../../../../../../../public/images/Banner-Site-Sempre-Visão_02Prancheta-1.png';
+import image3 from '../../../../../../../public/images/Banner-Site-Sempre-Visão_03Prancheta-1.png';
 import Image from 'next/image';
 import './styles.scss';
 
 export const CarouselBanner = () => {
-  const images = [image1, image2];
+  const images = [image3, image1, image2];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(1);
   const [transition, setTransition] = useState(false);
