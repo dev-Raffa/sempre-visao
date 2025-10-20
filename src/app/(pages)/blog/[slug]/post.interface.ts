@@ -6,6 +6,7 @@ export interface IPost {
   imageUrl: string | StaticImageData;
   description: string;
   content: string;
+  galleryImages?: (string | StaticImageData)[];
   date?: string;
   tags?: string[];
 }
