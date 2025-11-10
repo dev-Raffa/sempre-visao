@@ -8,17 +8,32 @@ import { posts } from './posts';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const slug = (await params).slug;
+  const slug = params.slug;
   const page = posts.find((page) => page.slug === slug);
-
+  
+  if(!page){
+    return {
+      title: "Página não encontrada!"
+    }
+  }
+  
   return {
-    description: page?.description,
+    title: page.title,
+    description: page.description,
     alternates: {
       canonical: `https://semprevisão.com.br/blog/${slug}`
+    },
+    openGraph: {
+      type: 'article',
+      title: page.title,
+      description: page.description,
+      images: [
+        `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imageUrl}`
+      ]
     }
   };
 }
