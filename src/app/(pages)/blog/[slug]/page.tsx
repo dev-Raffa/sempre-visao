@@ -98,7 +98,7 @@ export default async function DynamicPage({
         <h1>
           <strong>{page.title}</strong>
         </h1>
-        <section dangerouslySetInnerHTML={{ __html: page.content }} />
+        <section className='flex flex-col justify-center items-center' dangerouslySetInnerHTML={{ __html: page.content }} />
         {page.galleryImages && page.galleryImages.length > 0 && (
           <div className='flex w-full  flex-col items-center justify-center'>
             <Carousel className='w-full' opts={{align: "start", loop: true, slidesToScroll: 2} }>

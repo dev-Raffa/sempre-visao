@@ -87,6 +87,27 @@
                 }
             }
         }
+
+        a{
+            padding: 24px 12px;
+            color: yellow ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--primary-color);
+        }
+
+        &#faq{
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                
+                details[open] .details-marker {
+                    transform: rotate(45deg);
+                }
+            }
+        }
     }
     
 }

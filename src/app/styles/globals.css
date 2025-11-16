@@ -137,3 +137,7 @@ main{
     @apply bg-background text-foreground;
     }
 }
+
+details[open] .details-marker {
+  transform: rotate(45deg);
+}

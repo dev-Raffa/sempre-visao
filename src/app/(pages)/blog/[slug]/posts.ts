@@ -1,53 +1,49 @@
 import { IPostList } from './post.interface';
 
 export const posts: IPostList = [
-    {
+{
         title: 'Catarata: O que É, Principais Sintomas e Quando a Cirurgia é Indicada',
         description: 'Um guia completo da Clinica Sempre Visão sobre a catarata, a principal causa de cegueira reversível. Entenda o que é, os sintomas de alerta (como visão embaçada) e descubra qual o momento certo de optar pela cirurgia para restaurar sua visão.',
         slug:'catarata-o-que-e-sintomas-quando-operar',
         imageUrl: 'Oftalmologista da Clinica Sempre Visão explicando o diagnóstico de catarata para um paciente idoso em consultório.png', 
         content: `
-                <article>
-                <header>
-                    <h1>Catarata: O que É, Principais Sintomas e Quando a Cirurgia é Indicada</h1>
-                </header>
-                
-                <section id="o-que-e">
-                    <p>A <strong>catarata</strong> é uma das principais causas de perda de visão no mundo, mas felizmente, é <strong>totalmente reversível</strong> com o tratamento adequado. Ela ocorre quando o <strong>cristalino</strong>, a lente natural do nosso olho, perde sua transparência e se torna opaco. Esse processo impede que a luz chegue com clareza à retina, tornando a visão progressivamente embaçada ou "nublada".</p>
+                <section id="o-que-e" class="space-y-6">
+                    <p>A <strong class="font-semibold text-slate-800">catarata</strong> é uma das principais causas de perda de visão no mundo, mas felizmente, é <strong class="font-semibold text-slate-800">totalmente reversível</strong> com o tratamento adequado. Ela ocorre quando o <strong class="font-semibold text-slate-800">cristalino</strong>, a lente natural do nosso olho, perde sua transparência e se torna opaco. Esse processo impede que a luz chegue com clareza à retina, tornando a visão progressivamente embaçada ou "nublada".</p>
                     <p>Na Clinica Sempre Visão, entendemos que um diagnóstico de catarata pode gerar dúvidas. Por isso, preparamos este guia para explicar tudo o que você precisa saber sobre essa condição, desde os primeiros sinais até o momento certo de considerar o tratamento.</p>
                 </section>
 
-                <section id="sintomas">
-                    <h2>Quais são os Sintomas da Catarata?</h2>
+                <section id="sintomas" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Quais são os Sintomas da Catarata?</h2>
                     <p>A catarata geralmente se desenvolve de forma lenta e gradual. Muitas vezes, os primeiros sintomas são sutis e podem ser confundidos com o processo natural de envelhecimento. Fique atento a estes sinais:</p>
-                    <ul>
-                        <li><strong>Visão embaçada ou "nublada":</strong> É como se estivesse olhando através de um vidro fosco ou de uma névoa constante.</li>
-                        <li><strong>Sensibilidade aumentada à luz (Fotofobia):</strong> Luzes fortes, como faróis de carro à noite ou a luz do sol, podem causar grande desconforto e ofuscamento.</li>
-                        <li><strong>Mudanças frequentes no grau dos óculos:</strong> Se seu grau de miopia ou hipermetropia muda constantemente, pode ser um sinal.</li>
-                        <li><strong>Percepção desbotada das cores:</strong> As cores parecem menos vivas e mais amareladas.</li>
-                        <li><strong>Visão dupla (diplopia):</strong> Ver imagens duplicadas em apenas um dos olhos.</li>
-                        <li><strong>Dificuldade para enxergar à noite:</strong> A visão noturna fica significativamente prejudicada, tornando tarefas como dirigir à noite mais difíceis.</li>
+                    
+                    <ul class="list-disc space-y-4 pl-6 sm:pl-8">
+                        <li><strong class="font-semibold text-slate-800">Visão embaçada ou "nublada":</strong> É como se estivesse olhando através de um vidro fosco ou de uma névoa constante.</li>
+                        <li><strong class="font-semibold text-slate-800">Sensibilidade aumentada à luz (Fotofobia):</strong> Luzes fortes, como faróis de carro à noite ou a luz do sol, podem causar grande desconforto e ofuscamento.</li>
+                        <li><strong class="font-semibold text-slate-800">Mudanças frequentes no grau dos óculos:</strong> Se seu grau de miopia ou hipermetropia muda constantemente, pode ser um sinal.</li>
+                        <li><strong class="font-semibold text-slate-800">Percepção desbotada das cores:</strong> As cores parecem menos vivas e mais amareladas.</li>
+                        <li><strong class="font-semibold text-slate-800">Visão dupla (diplopia):</strong> Ver imagens duplicadas em apenas um dos olhos.</li>
+                        <li><strong class="font-semibold text-slate-800">Dificuldade para enxergar à noite:</strong> A visão noturna fica significativamente prejudicada, tornando tarefas como dirigir à noite mais difíceis.</li>
                     </ul>
                 </section>
 
-                <section id="causas">
-                    <h2>O que Causa a Catarata?</h2>
-                    <p>A causa mais comum da catarata é o <strong>envelhecimento natural do olho</strong> (catarata senil), que afeta a maioria das pessoas acima dos 60 anos. No entanto, outros fatores podem acelerar ou causar o problema:</p>
-                    <ul>
-                        <li><strong>Diabetes:</strong> Pacientes diabéticos têm um risco aumentado.</li>
-                        <li><strong>Traumas Oculares:</strong> Uma pancada ou lesão significativa no olho.</li>
-                        <li><strong>Uso prolongado de medicamentos:</strong> Especialmente corticoides.</li>
-                        <li><strong>Exposição solar excessiva:</strong> A radiação UV sem proteção adequada ao longo da vida.</li>
-                        <li><strong>Catarata congênita:</strong> Presente desde o nascimento.</li>
-                        <li><strong>Tabagismo e Alcoolismo:</strong> Hábitos que aumentam o risco.</li>
+                <section id="causas" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">O que Causa a Catarata?</h2>
+                    <p>A causa mais comum da catarata é o <strong class="font-semibold text-slate-800">envelhecimento natural do olho</strong> (catarata senil), que afeta a maioria das pessoas acima dos 60 anos. No entanto, outros fatores podem acelerar ou causar o problema:</p>
+                    <ul class="list-disc space-y-4 pl-6 sm:pl-8">
+                        <li><strong class="font-semibold text-slate-800">Diabetes:</strong> Pacientes diabéticos têm um risco aumentado.</li>
+                        <li><strong class="font-semibold text-slate-800">Traumas Oculares:</strong> Uma pancada ou lesão significativa no olho.</li>
+                        <li><strong class="font-semibold text-slate-800">Uso prolongado de medicamentos:</strong> Especialmente corticoides.</li>
+                        <li><strong class="font-semibold text-slate-800">Exposição solar excessiva:</strong> A radiação UV sem proteção adequada ao longo da vida.</li>
+                        <li><strong class="font-semibold text-slate-800">Catarata congênita:</strong> Presente desde o nascimento.</li>
+                        <li><strong class="font-semibold text-slate-800">Tabagismo e Alcoolismo:</strong> Hábitos que aumentam o risco.</li>
                     </ul>
                 </section>
 
-                <section id="quando-operar">
-                    <h2>Quando a Cirurgia de Catarata é Indicada?</h2>
-                    <p>Esta é a dúvida mais comum. Antigamente, existia o mito de que era preciso "esperar a catarata amadurecer". <strong>Isso não é mais verdade.</strong></p>
-                    <p>A indicação da cirurgia de catarata não depende da "maturidade" da doença, mas sim do <strong>impacto que ela causa na qualidade de vida do paciente</strong>. A cirurgia é recomendada quando a perda de visão começa a interferir nas suas atividades diárias, como:</p>
-                    <ul>
+                <section id="quando-operar" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Quando a Cirurgia de Catarata é Indicada?</h2>
+                    <p>Esta é a dúvida mais comum. Antigamente, existia o mito de que era preciso "esperar a catarata amadurecer". <strong class="font-semibold text-slate-800">Isso não é mais verdade.</strong></p>
+                    <p>A indicação da cirurgia de catarata não depende da "maturidade" da doença, mas sim do <strong class="font-semibold text-slate-800">impacto que ela causa na qualidade de vida do paciente</strong>. A cirurgia é recomendada quando a perda de visão começa a interferir nas suas atividades diárias, como:</p>
+                    <ul class="list-disc space-y-4 pl-6 sm:pl-8">
                         <li>Dificuldade para ler livros, legendas ou o celular.</li>
                         <li>Insegurança para dirigir, especialmente à noite.</li>
                         <li>Dificuldade em reconhecer rostos.</li>
@@ -56,32 +52,42 @@ export const posts: IPostList = [
                     <p>A decisão é sempre tomada em conjunto com seu oftalmologista, após uma avaliação detalhada. O objetivo é devolver sua independência e qualidade de visão.</p>
                 </section>
 
-                <section id="diagnostico">
-                    <h2>Como é feito o Diagnóstico?</h2>
-                    <p>O diagnóstico da catarata é feito pelo médico oftalmologista durante uma consulta de rotina. Através de exames como o exame na <strong>lâmpada de fenda</strong> (biomicroscopia) e a avaliação da acuidade visual, o médico consegue identificar a opacidade do cristalino e avaliar o quanto ela está afetando sua visão.</p>
-                    <p><strong>Não espere seus sintomas piorarem.</strong> Se você se identifica com algum dos sinais, o primeiro passo é marcar uma avaliação.</p>
-                    <a href="#agendamento" class="cta-button">Agende sua Avaliação de Catarata</a>
+                <section id="diagnostico" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Como é feito o Diagnóstico?</h2>
+                    <p>O diagnóstico da catarata é feito pelo médico oftalmologista durante uma consulta de rotina. Através de exames como o exame na <strong class="font-semibold text-slate-800">lâmpada de fenda</strong> (biomicroscopia) e a avaliação da acuidade visual, o médico consegue identificar a opacidade do cristalino e avaliar o quanto ela está afetando sua visão.</p>
+                    <p><strong class="font-semibold text-slate-800">Não espere seus sintomas piorarem.</strong> Se você se identifica com algum dos sinais, o primeiro passo é marcar uma avaliação.</p>
+                    
+                    <a href="#agendamento" class=" h-6 inline-block bg-blue-900 text-white font-bold py-8 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-colors text-center text-base sm:text-lg">Agende sua Avaliação de Catarata</a>
                 </section>
 
-                <section id="faq" class="faq-section">
-                    <h2>Perguntas Frequentes (FAQ)</h2>
+                <section id="faq" class="faq-section mt-16 pt-8 border-t border-gray-200">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-8 text-center">Perguntas Frequentes (FAQ)</h2>
                     
-                    <details class="faq-item">
-                        <summary>Existe colírio ou óculos que cura catarata?</summary>
-                        <p>Não. O único tratamento eficaz e definitivo para a catarata é a cirurgia, que substitui o cristalino opaco por uma lente nova e transparente.</p>
-                    </details>
-                    
-                    <details class="faq-item">
-                        <summary>A catarata pode voltar depois da cirurgia?</summary>
-                        <p>Não. A catarata em si não volta. O que pode ocorrer meses ou anos depois é a opacificação da cápsula onde a lente foi implantada (chamada de "opacidade capsular" ou "segunda catarata"). O tratamento para isso é simples, rápido e feito no próprio consultório com um laser (Capsulotomia YAG).</p>
-                    </details>
+                    <div class="w-full space-y-4">
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-8">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Existe colírio ou óculos que cura catarata?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">Não. O único tratamento eficaz e definitivo para a catarata é a cirurgia, que substitui o cristalino opaco por uma lente nova e transparente.</p>
+                        </details>
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-8">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                A catarata pode voltar depois da cirurgia?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">Não. A catarata em si não volta. O que pode ocorrer meses ou anos depois é a opacificação da cápsula onde a lente foi implantada (chamada de "opacidade capsular" ou "segunda catarata"). O tratamento para isso é simples, rápido e feito no próprio consultório com um laser (Capsulotomia YAG).</p>
+                        </details>
 
-                    <details class="faq-item">
-                        <summary>A catarata é contagiosa ou passa de um olho para o outro?</summary>
-                        <p>Não, a catarata não é uma doença contagiosa. Ela também não "passa" de um olho para o outro, embora seja muito comum se desenvolver em ambos os olhos (geralmente em ritmos diferentes).</p>
-                    </details>
+                        <details class="faq-item group border-b border-gray-200 pb-8">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                A catarata é contagiosa ou passa de um olho para o outro?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">Não, a catarata não é uma doença contagiosa. Ela também não "passa" de um olho para o outro, embora seja muito comum se desenvolver em ambos os olhos (geralmente em ritmos diferentes).</p>
+                        </details>
+                    </div>
                 </section>
-            </article>
+            
         `
     },
     {
@@ -90,88 +96,96 @@ export const posts: IPostList = [
         slug:'cirurgia-de-catarata-procedimento-lentes-intraoculares-recuperacao',
         imageUrl: 'Cirurgião oftalmologista realizando cirurgia de catarata com equipamento moderno de facoemulsificação.png', 
         content: `
-                <article>
-                <header>
-                    <h1>Cirurgia de Catarata: O Guia Definitivo sobre o Procedimento, Lentes Intraoculares e Recuperação</h1>
-                </header>
-                
-                <section id="introducao">
-                    <p>A <strong>cirurgia de catarata</strong> é um dos procedimentos mais seguros e eficazes da medicina moderna. Ela consiste na remoção do cristalino opaco e sua substituição por uma lente intraocular (LIO) artificial e transparente, restaurando a nitidez da visão. Graças aos avanços tecnológicos, a cirurgia é rápida, indolor e de recuperação acelerada.</p>
+                <section id="introducao" class="space-y-6">
+                    <p>A <strong class="font-semibold text-slate-800">cirurgia de catarata</strong> é um dos procedimentos mais seguros e eficazes da medicina moderna. Ela consiste na remoção do cristalino opaco e sua substituição por uma lente intraocular (LIO) artificial e transparente, restaurando a nitidez da visão. Graças aos avanços tecnológicos, a cirurgia é rápida, indolor e de recuperação acelerada.</p>
                     <p>Se você ou um ente querido tem indicação para a cirurgia, é natural ter dúvidas. Na Clinica Sempre Visão, priorizamos sua confiança. Este guia detalha o passo a passo do procedimento, os tipos de lentes disponíveis e o que esperar da recuperação.</p>
                 </section>
 
-                <section id="como-e-feita">
-                    <h2>Como Funciona a Cirurgia de Catarata? A Técnica Moderna</h2>
-                    <p>O método mais moderno e utilizado atualmente é a <strong>Facoemulsificação</strong>. O procedimento é realizado sob anestesia local (colírios) e leve sedação, garantindo total conforto.</p>
-                    <ol>
-                        <li><strong>Microincisão:</strong> O cirurgião faz uma incisão minúscula (cerca de 2 milímetros) na córnea.</li>
-                        <li><strong>Facoemulsificação:</strong> Uma sonda de ultrassom de alta frequência é inserida. Ela vibra rapidamente, quebrando (emulsificando) o cristalino opaco em pequenos fragmentos.</li>
-                        <li><strong>Aspiração:</strong> Esses fragmentos são delicadamente aspirados para fora do olho.</li>
-                        <li><strong>Implante da Lente:</strong> Através da mesma microincisão, a nova <strong>lente intraocular (LIO)</strong> é inserida. Ela entra dobrada e se abre suavemente dentro do olho, posicionando-se no lugar do antigo cristalino.</li>
+                <section id="como-e-feita" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Como Funciona a Cirurgia de Catarata? A Técnica Moderna</h2>
+                    <p>O método mais moderno e utilizado atualmente é a <strong class="font-semibold text-slate-800">Facoemulsificação</strong>. O procedimento é realizado sob anestesia local (colírios) e leve sedação, garantindo total conforto.</p>
+                    
+                    <ol class="list-decimal space-y-4 pl-6 sm:pl-8">
+                        <li><strong class="font-semibold text-slate-800">Microincisão:</strong> O cirurgião faz uma incisão minúscula (cerca de 2 milímetros) na córnea.</li>
+                        <li><strong class="font-semibold text-slate-800">Facoemulsificação:</strong> Uma sonda de ultrassom de alta frequência é inserida. Ela vibra rapidamente, quebrando (emulsificando) o cristalino opaco em pequenos fragmentos.</li>
+                        <li><strong class="font-semibold text-slate-800">Aspiração:</strong> Esses fragmentos são delicadamente aspirados para fora do olho.</li>
+                        <li><strong class="font-semibold text-slate-800">Implante da Lente:</strong> Através da mesma microincisão, a nova <strong class="font-semibold text-slate-800">lente intraocular (LIO)</strong> é inserida. Ela entra dobrada e se abre suavemente dentro do olho, posicionando-se no lugar do antigo cristalino.</li>
                     </ol>
-                    <p>A incisão é tão pequena que, na maioria dos casos, ela é autosselante, <strong>não necessitando de pontos</strong>. O procedimento todo dura, em média, de 15 a 20 minutos.</p>
+                    <p>A incisão é tão pequena que, na maioria dos casos, ela é autosselante, <strong class="font-semibold text-slate-800">não necessitando de pontos</strong>. O procedimento todo dura, em média, de 15 a 20 minutos.</p>
                 </section>
 
-                <section id="lentes-intraoculares">
-                    <h2>Quais são os Tipos de Lentes Intraoculares (LIOs)?</h2>
-                    <p>A escolha da lente intraocular é um dos momentos mais importantes da cirurgia, pois ela pode não apenas curar a catarata, mas também <strong>corrigir erros refrativos</strong> (grau), como miopia, hipermetropia, astigmatismo e presbiopia (vista cansada).</p>
+                <section id="lentes-intraoculares" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Quais são os Tipos de Lentes Intraoculares (LIOs)?</h2>
+                    <p>A escolha da lente intraocular é um dos momentos mais importantes da cirurgia, pois ela pode não apenas curar a catarata, mas também <strong class="font-semibold text-slate-800">corrigir erros refrativos</strong> (grau), como miopia, hipermetropia, astigmatismo e presbiopia (vista cansada).</p>
                     <p>As principais opções são:</p>
-                    <ul>
-                        <li><strong>Lentes Monofocais:</strong> Corrigem a visão para um único foco, geralmente para <strong>longe</strong>. O paciente terá uma excelente visão para dirigir ou ver TV, mas provavelmente precisará de óculos para ler de perto.</li>
-                        <li><strong>Lentes Tóricas (Monofocais ou Multifocais):</strong> São desenhadas especificamente para pacientes que possuem <strong>astigmatismo</strong>, corrigindo-o juntamente com a catarata.</li>
-                        <li><strong>Lentes Multifocais (Bifocais ou Trifocais):</strong> A tecnologia mais avançada. Possuem múltiplos focos, permitindo uma boa visão para <strong>longe, intermediário (computador) e perto (leitura)</strong>. O objetivo é reduzir ou eliminar a dependência dos óculos após a cirurgia.</li>
+                    <ul class="list-disc space-y-4 pl-6 sm:pl-8">
+                        <li><strong class="font-semibold text-slate-800">Lentes Monofocais:</strong> Corrigem a visão para um único foco, geralmente para <strong class="font-semibold text-slate-800">longe</strong>. O paciente terá uma excelente visão para dirigir ou ver TV, mas provavelmente precisará de óculos para ler de perto.</li>
+                        <li><strong class="font-semibold text-slate-800">Lentes Tóricas (Monofocais ou Multifocais):</strong> São desenhadas especificamente para pacientes que possuem <strong class="font-semibold text-slate-800">astigmatismo</strong>, corrigindo-o juntamente com a catarata.</li>
+                        <li><strong class="font-semibold text-slate-800">Lentes Multifocais (Bifocais ou Trifocais):</strong> A tecnologia mais avançada. Possuem múltiplos focos, permitindo uma boa visão para <strong class="font-semibold text-slate-800">longe, intermediário (computador) e perto (leitura)</strong>. O objetivo é reduzir ou eliminar a dependência dos óculos após a cirurgia.</li>
                     </ul>
                     <p>A escolha da lente ideal depende do seu estilo de vida, das suas expectativas e da saúde geral dos seus olhos. Seu oftalmologista da Clinica Sempre Visão irá avaliar qual a melhor opção para o seu caso.</p>
                 </section>
 
-                <section id="recuperacao">
-                    <h2>Como é o Pós-Operatório e a Recuperação?</h2>
+                <section id="recuperacao" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Como é o Pós-Operatório e a Recuperação?</h2>
                     <p>A recuperação da cirurgia de catarata moderna é notavelmente rápida.</p>
-                    <ul>
-                        <li><strong>Alta no Mesmo Dia:</strong> O paciente recebe alta logo após o procedimento, com um protetor ocular.</li>
-                        <li><strong>Visão Imediata:</strong> Embora a visão possa estar um pouco embaçada no primeiro dia, a melhora da nitidez é percebida rapidamente, progredindo ao longo dos dias seguintes.</li>
-                        <li><strong>Uso de Colírios:</strong> É fundamental seguir rigorosamente o uso dos colírios antibióticos e anti-inflamatórios prescritos para prevenir infecções e acelerar a cicatrização.</li>
-                        <li><strong>Cuidados Essenciais:</strong> Nos primeiros dias, é vital evitar coçar ou apertar os olhos, não fazer esforço físico pesado e evitar mergulhar em piscina ou mar.</li>
-                        <li><strong>Retorno às Atividades:</strong> A maioria dos pacientes retoma atividades leves, como ler e assistir TV, no dia seguinte.</li>
+                    <ul class="list-disc space-y-4 pl-6 sm:pl-8">
+                        <li><strong class="font-semibold text-slate-800">Alta no Mesmo Dia:</strong> O paciente recebe alta logo após o procedimento, com um protetor ocular.</li>
+                        <li><strong class="font-semibold text-slate-800">Visão Imediata:</strong> Embora a visão possa estar um pouco embaçada no primeiro dia, a melhora da nitidez é percebida rapidamente, progredindo ao longo dos dias seguintes.</li>
+                        <li><strong class="font-semibold text-slate-800">Uso de Colírios:</strong> É fundamental seguir rigorosamente o uso dos colírios antibióticos e anti-inflamatórios prescritos para prevenir infecções e acelerar a cicatrização.</li>
+                        <li><strong class="font-semibold text-slate-800">Cuidados Essenciais:</strong> Nos primeiros dias, é vital evitar coçar ou apertar os olhos, não fazer esforço físico pesado e evitar mergulhar em piscina ou mar.</li>
+                        <li><strong class="font-semibold text-slate-800">Retorno às Atividades:</strong> A maioria dos pacientes retoma atividades leves, como ler e assistir TV, no dia seguinte.</li>
                     </ul>
                 </section>
 
-                <section id="vantagens">
-                    <h2>Vantagens da Cirurgia Moderna</h2>
-                    <ul>
+                <section id="vantagens" class="space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-12 mb-6">Vantagens da Cirurgia Moderna</h2>
+                    <ul class="list-disc space-y-4 pl-6 sm:pl-8">
                         <li>Procedimento rápido, seguro e indolor.</li>
                         <li>Recuperação acelerada.</li>
                         <li>Restauração da visão nítida e das cores vibrantes.</li>
                         <li>Oportunidade de corrigir o grau (miopia, astigmatismo, presbiopia).</li>
                         <li>Melhora significativa na qualidade de vida e independência.</li>
                     </ul>
-                    <a href="#agendamento" class="cta-button">Pronto para Voltar a Enxergar o Mundo? Agende sua Cirurgia</a>
+                    
+                    <a href="#agendamento" class="cta-button inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-colors text-center text-base sm:text-lg">Pronto para Voltar a Enxergar o Mundo? Agende sua Cirurgia</a>
                 </section>
 
-                <section id="faq" class="faq-section">
-                    <h2>Perguntas Frequentes (FAQ)</h2>
+                <section id="faq" class="faq-section mt-16 pt-8 border-t border-gray-200">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-8 text-center">Perguntas Frequentes (FAQ)</h2>
                     
-                    <details class="faq-item">
-                        <summary>A cirurgia de catarata dói?</summary>
-                        <p>Não. O procedimento é realizado com anestesia local (colírios) e uma leve sedação, tornando-o completamente indolor. O paciente pode sentir um leve desconforto ou sensação de areia no olho nas primeiras horas após a cirurgia, o que é normal.</p>
-                    </details>
-                    
-                    <details class="faq-item">
-                        <summary>Quanto tempo dura a cirurgia?</summary>
-                        <p>O ato cirúrgico em si é muito rápido, durando em média de 15 a 20 minutos por olho.</p>
-                    </details>
+                    <div class="space-y-4">
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-4">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                A cirurgia de catarata dói?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">Não. O procedimento é realizado com anestesia local (colírios) e uma leve sedação, tornando-o completamente indolor. O paciente pode sentir um leve desconforto ou sensação de areia no olho nas primeiras horas após a cirurgia, o que é normal.</p>
+                        </details>
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-4">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Quanto tempo dura a cirurgia?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">O ato cirúrgico em si é muito rápido, durando em média de 15 a 20 minutos por olho.</p>
+                        </details>
 
-                    <details class="faq-item">
-                        <summary>A cirurgia é feita com laser?</summary>
-                        <p>A técnica principal é a Facoemulsificação, que usa ultrassom. Existe também a cirurgia assistida pelo <strong>Laser de Femtossegundo</strong>, que automatiza algumas etapas (como a incisão e a quebra do cristalino) com extrema precisão. Ambas as técnicas são excelentes. Consulte seu médico sobre qual é a mais indicada para você.</p>
-                    </details>
-                    
-                    <details class="faq-item">
-                        <summary>Posso operar os dois olhos no mesmo dia?</summary>
-                        <p>Embora seja tecnicamente possível, a prática mais comum e segura é operar um olho de cada vez, geralmente com um intervalo de uma a duas semanas entre os procedimentos. Isso permite a recuperação do primeiro olho e minimiza riscos.</p>
-                    </details>
+                        <details class="faq-item group border-b border-gray-200 pb-4">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                A cirurgia é feita com laser?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">A técnica principal é a Facoemulsificação, que usa ultrassom. Existe também a cirurgia assistida pelo <strong class="font-semibold text-slate-800">Laser de Femtossegundo</strong>, que automatiza algumas etapas (como a incisão e a quebra do cristalino) com extrema precisão. Ambas as técnicas são excelentes. Consulte seu médico sobre qual é a mais indicada para você.</p>
+                        </details>
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-4">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Posso operar os dois olhos no mesmo dia?
+                            </summary>
+                            <p class="pt-3 text-slate-600 leading-relaxed">Embora seja tecnicamente possível, a prática mais comum e segura é operar um olho de cada vez, geralmente com um intervalo de uma a duas semanas entre os procedimentos. Isso permite a recuperação do primeiro olho e minimiza riscos.</p>
+                        </details>
+                    </div>
                 </section>
-            </article>
+            
         `
     },
   {
