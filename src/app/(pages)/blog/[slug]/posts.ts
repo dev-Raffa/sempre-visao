@@ -5,7 +5,7 @@ export const posts: IPostList = [
         title: 'Cirurgia Refrativa a Laser: O Guia para Deixar de Usar Óculos (LASIK e PRK)',
         description: 'Sonha em viver sem óculos ou lentes de contato? Descubra tudo sobre a Cirurgia Refrativa a Laser. A Clinica Sempre Visão explica as diferenças entre LASIK e PRK, quem pode fazer a cirurgia, como é a recuperação e os benefícios de corrigir miopia, astigmatismo e hipermetropia.',
         slug:'cirurgia-refrativa-laser-lasik-prk-adeus-oculos',
-        imageUrl: '', // Inserir URL da imagem aqui
+        imageUrl: 'Mulher sorrindo segurando óculos de grau em consultório, decidindo pela cirurgia refrativa..webp',
         content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Imagine acordar de manhã e enxergar o relógio nitidamente sem precisar tatear a mesa de cabeceira em busca dos óculos. Ou praticar esportes e nadar sem a preocupação com lentes de contato. Para milhões de pessoas, essa liberdade é conquistada através da <strong class="font-semibold text-slate-800">Cirurgia Refrativa a Laser</strong>.</p>
@@ -75,7 +75,7 @@ export const posts: IPostList = [
                     
                     <div class="mt-6 text-center">
                         <p class="text-xl font-semibold text-slate-800 mb-[12px!Important]">Quer saber se você é um candidato?</p>
-                        <a href="#agendamento" class="cta-button inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-colors text-base sm:text-lg">Agende seus Exames Pré-Operatórios</a>
+                        <a href="https://api.whatsapp.com/send/?phone=5516992627740&text&type=phone_number&app_absent=0" class="cta-button inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-colors text-base sm:text-lg">Agende seus Exames Pré-Operatórios</a>
                     </div>
                 </section>
 
