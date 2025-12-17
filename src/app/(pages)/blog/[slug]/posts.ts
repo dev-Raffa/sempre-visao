@@ -1,10 +1,96 @@
 import { IPostList } from './post.interface';
 
 export const posts: IPostList = [
-{
+    {
+        title: '7 Mitos e Verdades sobre a Catarata: O Que Você Precisa Saber Antes de Operar',
+        description: 'Colírio cura catarata? É preciso esperar "amadurecer"? A doença volta? A Clinica Sempre Visão desvenda os 7 maiores mitos sobre a cirurgia de catarata para que você possa cuidar da sua visão com segurança e informação correta.',
+        slug: 'mitos-e-verdades-sobre-catarata',
+        imageUrl: 'Médico oftalmologista da Clinica Sempre Visão explicando verdades sobre a catarata para paciente idosa.webp',
+        content: `
+                <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <p>Quando o assunto é a saúde dos nossos olhos, a sabedoria popular nem sempre está correta. A <strong>catarata</strong>, sendo a cirurgia mais realizada na oftalmologia mundial, é cercada de muitas informações desencontradas que podem gerar medo ou atrasar o diagnóstico.</p>
+                    <p>Na Clinica Sempre Visão, acreditamos que a informação é o primeiro passo para o tratamento. Por isso, reunimos nossa equipe de especialistas para esclarecer, de uma vez por todas, o que é fato e o que é ficção sobre a catarata.</p>
+                </section>
+
+                <section id="mito-1-colirio" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-red-700 text-xl">Mito #1: "Existem colírios ou exercícios que curam a catarata."</h3>
+                    </div>
+                    <p><strong class="text-green-700 font-bold">Verdade:</strong> Infelizmente, não. Até o momento, a ciência não descobriu nenhum medicamento, colírio, dieta ou exercício ocular capaz de reverter a opacidade do cristalino. O processo de "esbranquiçamento" da lente natural do olho é físico e progressivo. A <strong>única forma eficaz e definitiva</strong> de tratar a catarata é através da cirurgia.</p>
+                </section>
+
+                <section id="mito-2-amadurecer" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-red-700 text-xl">Mito #2: "Tenho que esperar a catarata 'amadurecer' para operar."</h3>
+                    </div>
+                    <p><strong class="text-green-700 font-bold">Verdade:</strong> Esse é um conceito muito antigo, da época em que as técnicas cirúrgicas eram menos avançadas. Hoje, com a moderna Facoemulsificação, <strong>não é necessário esperar</strong>. Pelo contrário: cataratas muito "maduras" (duras) podem tornar a cirurgia mais complexa.</p>
+                    <p>A indicação atual é operar assim que a catarata começar a afetar sua qualidade de vida, dificultando tarefas simples como ler, dirigir ou ver televisão.</p>
+                </section>
+
+                <section id="mito-3-volta" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-red-700 text-xl">Mito #3: "A catarata pode voltar depois da cirurgia."</h3>
+                    </div>
+                    <p><strong class="text-green-700 font-bold">Verdade:</strong> A catarata não volta. O cristalino opaco é removido e substituído por uma lente artificial que não estraga. O que pode acontecer em alguns pacientes, meses ou anos depois, é a opacificação da membrana que sustenta a lente (cápsula posterior).</p>
+                    <p>Isso é conhecido como "segunda catarata", mas o tratamento é simples: uma limpeza rápida feita no consultório com YAG Laser, sem necessidade de nova cirurgia.</p>
+                </section>
+
+                <section id="mito-4-idosos" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-red-700 text-xl">Mito #4: "Catarata é doença apenas de idosos."</h3>
+                    </div>
+                    <p><strong class="text-green-700 font-bold">Verdade:</strong> Embora o envelhecimento seja a causa principal (Catarata Senil), ela não é exclusiva da terceira idade. Pessoas mais jovens podem desenvolver catarata devido a:</p>
+                    <ul class="list-disc space-y-2 pl-6 sm:pl-8">
+                        <li>Diabetes não controlada.</li>
+                        <li>Uso prolongado de corticoides.</li>
+                        <li>Traumas ou pancadas nos olhos.</li>
+                        <li>Alta exposição solar sem proteção UV.</li>
+                        <li>Fatores genéticos (Catarata Congênita).</li>
+                    </ul>
+                </section>
+
+                <section id="mito-5-laser" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-red-700 text-xl">Mito #5: "A cirurgia é feita inteiramente a laser."</h3>
+                    </div>
+                    <p><strong class="text-green-700 font-bold">Verdade:</strong> Esta é uma meia-verdade. A técnica padrão (Facoemulsificação) utiliza <strong>ultrassom</strong> para fragmentar a catarata. Existe, sim, a tecnologia de <strong>Laser de Femtossegundo</strong>, que realiza etapas cruciais da cirurgia com precisão micrométrica, mas ela trabalha em conjunto com o ultrassom e a aspiração. Ambos os métodos são extremamente seguros.</p>
+                </section>
+
+                <section id="cta-final" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-6 mb-4">Não deixe os mitos atrapalharem sua visão</h2>
+                    <p>A desinformação é o maior inimigo da saúde ocular. Se você percebe sua visão embaçada, o melhor caminho é sempre a avaliação profissional.</p>
+                    
+                    <div class="mt-6 text-center">
+                        <p class="text-xl font-semibold text-slate-800 mb-3">Tem mais dúvidas sobre a catarata?</p>
+                        <a href="#agendamento" class="cta-button inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-colors text-base sm:text-lg">Converse com nossos Especialistas</a>
+                    </div>
+                </section>
+
+                <section id="faq" class="w-full faq-section mt-8 pt-6 border-t border-gray-200 text-lg text-slate-700 leading-relaxed">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-6 text-center">Resumo Rápido (FAQ)</h2>
+                    
+                    <div class="space-y-3">
+                        <details class="faq-item group border-b border-gray-200 pb-3">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                A cirurgia de catarata é perigosa?
+                            </summary>
+                            <p class="pt-2 text-slate-600 leading-relaxed">Todo procedimento cirúrgico envolve riscos, mas a cirurgia de catarata é considerada uma das mais seguras e bem-sucedidas da medicina moderna, com taxas de complicação extremamente baixas.</p>
+                        </details>
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-3">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Posso deixar de usar óculos após a cirurgia?
+                            </summary>
+                            <p class="pt-2 text-slate-600 leading-relaxed">Sim, é muito provável! Com o implante de Lentes Intraoculares Premium (Multifocais ou Tóricas), é possível corrigir miopia, hipermetropia, astigmatismo e presbiopia na mesma cirurgia, reduzindo drasticamente a dependência dos óculos.</p>
+                        </details>
+                    </div>
+                </section>
+        `
+    },
+    {
         title: 'Cirurgia Refrativa a Laser: O Guia para Deixar de Usar Óculos (LASIK e PRK)',
         description: 'Sonha em viver sem óculos ou lentes de contato? Descubra tudo sobre a Cirurgia Refrativa a Laser. A Clinica Sempre Visão explica as diferenças entre LASIK e PRK, quem pode fazer a cirurgia, como é a recuperação e os benefícios de corrigir miopia, astigmatismo e hipermetropia.',
-        slug:'cirurgia-refrativa-laser-lasik-prk-adeus-oculos',
+        slug: 'cirurgia-refrativa-laser-lasik-prk-adeus-oculos',
         imageUrl: 'Mulher sorrindo segurando óculos de grau em consultório, decidindo pela cirurgia refrativa..webp',
         content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
@@ -115,11 +201,11 @@ export const posts: IPostList = [
                 </section>
         `
     },
-{
+    {
         title: 'Catarata: O que É, Principais Sintomas e Quando a Cirurgia é Indicada',
         description: 'Um guia completo da Clinica Sempre Visão sobre a catarata, a principal causa de cegueira reversível. Entenda o que é, os sintomas de alerta (como visão embaçada) e descubra qual o momento certo de optar pela cirurgia para restaurar sua visão.',
-        slug:'catarata-o-que-e-sintomas-quando-operar',
-        imageUrl: 'Oftalmologista da Clinica Sempre Visão explicando o diagnóstico de catarata para um paciente idoso em consultório.png', 
+        slug: 'catarata-o-que-e-sintomas-quando-operar',
+        imageUrl: 'Oftalmologista da Clinica Sempre Visão explicando o diagnóstico de catarata para um paciente idoso em consultório.png',
         content: `
                 <section id="o-que-e" class="space-y-6">
                     <p>A <strong class="font-semibold text-slate-800">catarata</strong> é uma das principais causas de perda de visão no mundo, mas felizmente, é <strong class="font-semibold text-slate-800">totalmente reversível</strong> com o tratamento adequado. Ela ocorre quando o <strong class="font-semibold text-slate-800">cristalino</strong>, a lente natural do nosso olho, perde sua transparência e se torna opaco. Esse processo impede que a luz chegue com clareza à retina, tornando a visão progressivamente embaçada ou "nublada".</p>
@@ -207,8 +293,8 @@ export const posts: IPostList = [
     {
         title: 'Cirurgia de Catarata: O Guia Definitivo sobre o Procedimento, Lentes Intraoculares e Recuperação',
         description: 'Prepare-se para a cirurgia de catarata. A Clinica Sempre Visão explica em detalhes como funciona o procedimento moderno (facoemulsificação), os tipos de lentes intraoculares (LIOs) para corrigir grau (multifocais, tóricas) e o guia passo a passo da recuperação pós-operatória.',
-        slug:'cirurgia-de-catarata-procedimento-lentes-intraoculares-recuperacao',
-        imageUrl: 'Cirurgião oftalmologista realizando cirurgia de catarata com equipamento moderno de facoemulsificação.png', 
+        slug: 'cirurgia-de-catarata-procedimento-lentes-intraoculares-recuperacao',
+        imageUrl: 'Cirurgião oftalmologista realizando cirurgia de catarata com equipamento moderno de facoemulsificação.png',
         content: `
                 <section id="introducao" class="space-y-6">
                     <p>A <strong class="font-semibold text-slate-800">cirurgia de catarata</strong> é um dos procedimentos mais seguros e eficazes da medicina moderna. Ela consiste na remoção do cristalino opaco e sua substituição por uma lente intraocular (LIO) artificial e transparente, restaurando a nitidez da visão. Graças aos avanços tecnológicos, a cirurgia é rápida, indolor e de recuperação acelerada.</p>
@@ -302,12 +388,12 @@ export const posts: IPostList = [
             
         `
     },
-  {
-    title: 'Coquetel de inauguração da Sempre Visão em Franca celebra nova fase da clínica com convidados especiais',
-    slug: 'coquetel-de-inauguracao-da-sempre-visao-em-franca-celebra-nova-fase-da-clinica-com-convidados-especiais',
-    imageUrl: 'coquetel-inauguracao-sempre-visao-em-franca-capa.JPG',
-    description: 'No dia 16 de outubro, a Sempre Visão realizou um coquetel de inauguração que reuniu convidados especiais, parceiros, amigos e personalidades da região. O evento marcou a abertura oficial da nova unidade em Franca e celebrou uma nova etapa na trajetória de excelência da clínica.',
-    content: `
+    {
+        title: 'Coquetel de inauguração da Sempre Visão em Franca celebra nova fase da clínica com convidados especiais',
+        slug: 'coquetel-de-inauguracao-da-sempre-visao-em-franca-celebra-nova-fase-da-clinica-com-convidados-especiais',
+        imageUrl: 'coquetel-inauguracao-sempre-visao-em-franca-capa.JPG',
+        description: 'No dia 16 de outubro, a Sempre Visão realizou um coquetel de inauguração que reuniu convidados especiais, parceiros, amigos e personalidades da região. O evento marcou a abertura oficial da nova unidade em Franca e celebrou uma nova etapa na trajetória de excelência da clínica.',
+        content: `
         <h2>Coquetel de inauguração da Sempre Visão em Franca celebra nova fase da clínica com convidados especiais</h2>
 
         <p>No dia <strong>16 de outubro</strong>, a <strong>Sempre Visão</strong> realizou um coquetel de inauguração que reuniu convidados especiais, parceiros, amigos e personalidades da região. O evento marcou a abertura oficial da nova unidade em Franca e celebrou uma nova etapa na trajetória de excelência da clínica.</p>
@@ -321,36 +407,36 @@ export const posts: IPostList = [
         <p>O evento foi um verdadeiro momento de <strong>celebração</strong>, <strong>união</strong> e <strong>inspiração</strong>, mostrando que a clínica segue firme em sua missão: <em>transformar vidas através da visão, com excelência, cuidado e humanidade.</em></p>
 
     `,
-    galleryImages:[
-        "coquetel-inauguracao-sempre-visao-em-franca-001.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-002.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-003.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-004.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-005.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-006.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-007.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-008.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-009.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-010.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-011.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-012.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-013.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-014.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-015.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-016.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-017.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-018.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-019.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-020.JPG",
-        "coquetel-inauguracao-sempre-visao-em-franca-021.JPG",
-    ]
-  },  
-  {
-    title: 'Sempre Visão chega a Franca com tecnologia e cuidado humanizado',
-    slug: 'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado',
-    description: 'No dia 13 de outubro, a cidade de Franca ganhou uma nova referência em saúde ocular: a Sempre Visão, clínica oftalmológica do Grupo Sempre, abriu oficialmente suas portas e já está atendendo pacientes na Rua General Telles, 1259, ao lado da Sempre Sorrindo. A nova unidade chega para oferecer à população o que há de mais moderno em cuidados com a visão, combinando tecnologia de ponta, atendimento humanizado e uma equipe altamente especializada.',
-    imageUrl: 'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado.JPG',
-    content: `
+        galleryImages: [
+            "coquetel-inauguracao-sempre-visao-em-franca-001.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-002.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-003.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-004.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-005.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-006.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-007.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-008.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-009.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-010.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-011.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-012.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-013.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-014.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-015.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-016.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-017.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-018.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-019.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-020.JPG",
+            "coquetel-inauguracao-sempre-visao-em-franca-021.JPG",
+        ]
+    },
+    {
+        title: 'Sempre Visão chega a Franca com tecnologia e cuidado humanizado',
+        slug: 'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado',
+        description: 'No dia 13 de outubro, a cidade de Franca ganhou uma nova referência em saúde ocular: a Sempre Visão, clínica oftalmológica do Grupo Sempre, abriu oficialmente suas portas e já está atendendo pacientes na Rua General Telles, 1259, ao lado da Sempre Sorrindo. A nova unidade chega para oferecer à população o que há de mais moderno em cuidados com a visão, combinando tecnologia de ponta, atendimento humanizado e uma equipe altamente especializada.',
+        imageUrl: 'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado.JPG',
+        content: `
         <h2>Sempre Visão chega a Franca com tecnologia e cuidado humanizado</h2>
 
         <p>No dia <strong>13 de outubro</strong>, a cidade de Franca ganhou uma nova referência em saúde ocular: a <strong>Sempre Visão</strong>, clínica oftalmológica do <strong>Grupo Sempre</strong>, abriu oficialmente suas portas e já está atendendo pacientes na <strong>Rua General Telles, 1259</strong>, ao lado da Sempre Sorrindo. A nova unidade chega para oferecer à população o que há de mais moderno em cuidados com a visão, combinando tecnologia de ponta, atendimento humanizado e uma equipe altamente especializada.</p>
@@ -381,18 +467,18 @@ export const posts: IPostList = [
 
         <p><strong>Endereço:</strong> Rua General Telles, 1259 – Ao lado da Sempre Sorrindo, em frente ao terminal.</p>
     `,
-  }, 
-  {
-    title:
-      'Sempre Visão realiza dezenas de cirurgias de catarata no primeiro mês de funcionamento — sem filas e com excelência',
-    slug: 'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento-sem-filas-e-com-excelencia',
-    imageUrl:
-      'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento.JPG',
-    description: `A clínica oftalmológica Sempre Visão, inaugurada há apenas um mês, já comemora um marco importante: dezenas de cirurgias de catarata foram realizadas com sucesso e, o melhor, sem filas de espera. A unidade, que já se destaca entre as principais referências em oftalmologia da região, tem como missão restaurar a visão e transformar vidas.
+    },
+    {
+        title:
+            'Sempre Visão realiza dezenas de cirurgias de catarata no primeiro mês de funcionamento — sem filas e com excelência',
+        slug: 'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento-sem-filas-e-com-excelencia',
+        imageUrl:
+            'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento.JPG',
+        description: `A clínica oftalmológica Sempre Visão, inaugurada há apenas um mês, já comemora um marco importante: dezenas de cirurgias de catarata foram realizadas com sucesso e, o melhor, sem filas de espera. A unidade, que já se destaca entre as principais referências em oftalmologia da região, tem como missão restaurar a visão e transformar vidas.
     Idealizada pelos oftalmologistas Dr. Raphael Brigagão e Dr. Breno Reis, a Sempre Visão nasceu com um propósito claro: oferecer atendimento humanizado, rápido e de qualidade, especialmente para quem enfrenta problemas como a catarata, uma das principais causas de cegueira reversível no mundo.
     “O nosso propósito é realizar o sonho de pessoas que têm dificuldade para enxergar e ajudá-las a terem suas visões restauradas”, explica Dr. Raphael.
     Com tecnologia de ponta, equipe especializada e estrutura pensada para o bem-estar dos pacientes, a clínica tem se destacado por agilizar o acesso à cirurgia de catarata, promovendo mais qualidade de vida a quem tanto precisa.`,
-    content: `
+        content: `
         <p>
             A clínica oftalmológica Sempre Visão, inaugurada há apenas um mês, já comemora um marco importante: dezenas de cirurgias de catarata foram realizadas com sucesso e, o melhor, sem filas de espera. A unidade, que já se destaca entre as principais referências em oftalmologia da região, tem como missão restaurar a visão e transformar vidas.
         </p>
@@ -430,15 +516,15 @@ export const posts: IPostList = [
             <li>📍 Rua São Sebastião, 614, Centro, Ribeirão Preto, SP.</li>
         </ul>
     `
-  },
-  {
-    title: 'Por que escolher a Sempre Visão para a sua cirurgia de catarata?',
-    slug: 'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata',
-    imageUrl:
-      'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata.JPG',
-    description:
-      'A cirurgia de catarata é um dos procedimentos oftalmológicos mais seguros e eficazes para recuperar a visão. Na Sempre Visão, você encontra tecnologia de ponta, equipe médica especializada e um atendimento humanizado. Confira os diferenciais que tornam a Sempre Visão a melhor escolha para sua cirurgia de catarata.',
-    content: `
+    },
+    {
+        title: 'Por que escolher a Sempre Visão para a sua cirurgia de catarata?',
+        slug: 'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata',
+        imageUrl:
+            'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata.JPG',
+        description:
+            'A cirurgia de catarata é um dos procedimentos oftalmológicos mais seguros e eficazes para recuperar a visão. Na Sempre Visão, você encontra tecnologia de ponta, equipe médica especializada e um atendimento humanizado. Confira os diferenciais que tornam a Sempre Visão a melhor escolha para sua cirurgia de catarata.',
+        content: `
         <p>
             A cirurgia de catarata é hoje um dos procedimentos oftalmológicos mais seguros, rápidos e eficazes para quem busca recuperar a visão com qualidade de vida. Na Sempre Visão, essa cirurgia é realizada com tecnologia de última geração, por uma equipe médica especializada e com total atenção ao bem-estar do paciente.
         </p>
@@ -498,15 +584,15 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-  },
-  {
-    title:
-      'Como saber a hora certa de operar a catarata? Especialistas da Sempre Visão explicam',
-    slug: 'como-saber-a-hora-certa-de-operar-a-catarata-especialistas-da-sempre-visao-explicam',
-    imageUrl: 'como-saber-a-hora-certa-de-operar-a-catarata.JPG',
-    description:
-      'A catarata é uma condição oftalmológica muito comum, especialmente após os 60 anos, e pode causar sérios prejuízos à qualidade de vida se não for tratada corretamente. Mas afinal, qual é o momento ideal para operar a catarata? A equipe médica da Sempre Visão responde essa e outras dúvidas frequentes sobre o assunto.',
-    content: `
+    },
+    {
+        title:
+            'Como saber a hora certa de operar a catarata? Especialistas da Sempre Visão explicam',
+        slug: 'como-saber-a-hora-certa-de-operar-a-catarata-especialistas-da-sempre-visao-explicam',
+        imageUrl: 'como-saber-a-hora-certa-de-operar-a-catarata.JPG',
+        description:
+            'A catarata é uma condição oftalmológica muito comum, especialmente após os 60 anos, e pode causar sérios prejuízos à qualidade de vida se não for tratada corretamente. Mas afinal, qual é o momento ideal para operar a catarata? A equipe médica da Sempre Visão responde essa e outras dúvidas frequentes sobre o assunto.',
+        content: `
         <p>
             A catarata é uma condição oftalmológica muito comum, especialmente após os 60 anos, e pode causar sérios prejuízos à qualidade de vida se não for tratada corretamente. Mas afinal, <strong>qual é o momento ideal para operar a catarata?</strong> A equipe médica da Sempre Visão responde essa e outras dúvidas frequentes sobre o assunto.
         </p>
@@ -559,16 +645,16 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-  },
-  {
-    title:
-      'Diagnóstico precoce da catarata é essencial para preservar a visão, alerta equipe da Sempre Visão',
-    slug: 'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao-alerta-equipe-da-sempre-visao',
-    imageUrl:
-      'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao.JPG',
-    description:
-      'A catarata é uma condição oftalmológica silenciosa e progressiva, que pode levar à perda parcial ou total da visão se não for tratada a tempo. Por isso, os especialistas da Sempre Visão, clínica referência em cirurgia de catarata, alertam: o diagnóstico precoce é fundamental para garantir a eficácia do tratamento e preservar a qualidade de vida do paciente.',
-    content: `
+    },
+    {
+        title:
+            'Diagnóstico precoce da catarata é essencial para preservar a visão, alerta equipe da Sempre Visão',
+        slug: 'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao-alerta-equipe-da-sempre-visao',
+        imageUrl:
+            'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao.JPG',
+        description:
+            'A catarata é uma condição oftalmológica silenciosa e progressiva, que pode levar à perda parcial ou total da visão se não for tratada a tempo. Por isso, os especialistas da Sempre Visão, clínica referência em cirurgia de catarata, alertam: o diagnóstico precoce é fundamental para garantir a eficácia do tratamento e preservar a qualidade de vida do paciente.',
+        content: `
         <p>
             A catarata é uma condição oftalmológica silenciosa e progressiva, que pode levar à perda parcial ou total da visão se não for tratada a tempo. Por isso, os especialistas da Sempre Visão, clínica referência em cirurgia de catarata, alertam: o diagnóstico precoce é fundamental para garantir a eficácia do tratamento e preservar a qualidade de vida do paciente.    
         </p>
@@ -609,16 +695,16 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-  },
-  {
-    title:
-      'Cirurgia de catarata: descubra como funciona, quando fazer e onde realizar com segurança',
-    slug: 'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca',
-    imageUrl:
-      'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca.JPG',
-    description:
-      'A cirurgia de catarata é um dos procedimentos mais realizados no Brasil e no mundo. Com o avanço da medicina oftalmológica, a cirurgia se tornou rápida, segura e extremamente eficaz para quem deseja recuperar a nitidez da visão e voltar a ter qualidade de vida.',
-    content: `
+    },
+    {
+        title:
+            'Cirurgia de catarata: descubra como funciona, quando fazer e onde realizar com segurança',
+        slug: 'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca',
+        imageUrl:
+            'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca.JPG',
+        description:
+            'A cirurgia de catarata é um dos procedimentos mais realizados no Brasil e no mundo. Com o avanço da medicina oftalmológica, a cirurgia se tornou rápida, segura e extremamente eficaz para quem deseja recuperar a nitidez da visão e voltar a ter qualidade de vida.',
+        content: `
         <p>
             A cirurgia de catarata é um dos procedimentos mais realizados no Brasil e no mundo. Com o avanço da medicina oftalmológica, a cirurgia se tornou rápida, segura e extremamente eficaz para quem deseja recuperar a nitidez da visão e voltar a ter qualidade de vida.
         </p>
@@ -669,5 +755,5 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-  }
+    }
 ];

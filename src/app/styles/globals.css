@@ -2,7 +2,6 @@
 
 @tailwind utilities;
 @custom-variant dark (&:is(.dark *));
-@plugin "daisyui";
 
 *{
     margin: 0;
