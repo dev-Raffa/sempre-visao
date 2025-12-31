@@ -20,10 +20,7 @@ export const Navigation = () => {
           <a href="#Team">Equipe</a>
         </li>
         <li>
-          <a
-            href="https://semprevisao.sivoe.med.br/"
-            target="_blank"
-          >
+          <a href="https://semprevisao.sivoe.med.br/" target="_blank">
             Resultado de Exames
           </a>
         </li>
