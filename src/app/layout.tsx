@@ -5,7 +5,6 @@ import './styles/theme.scss';
 import { Header } from './components/layout/header';
 import { Main } from './components/layout/main';
 import { Footer } from './components/layout/footer';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 export const metadata: Metadata = {
   title: 'Sempre visão',
@@ -26,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <GoogleTagManager gtmId="GTM-NJVDJP4B" />
+      <head>
+        <meta name="google-site-verification" content="VTCDLrxfHd7UDE9EICTOnJ1b0PReZW97GkWpvdm7sgc" />
+      </head>
       <body className={font.className}>
         <Header />
         <Main>{children}</Main>
@@ -35,3 +36,4 @@ export default function RootLayout({
     </html>
   );
 }
+

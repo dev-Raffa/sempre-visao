@@ -82,7 +82,7 @@ export const posts: IPostList = [
         title: 'Pterígio: Tudo sobre a Cirurgia de "Carne Crescida" nos Olhos',
         description: 'Seus olhos estão sempre vermelhos e com uma "pele" crescendo em direção à córnea? Pode ser Pterígio. Entenda as causas (sol e vento), por que não se deve usar colírios clareadores e como funciona a cirurgia moderna com transplante conjuntival.',
         slug:'pterigio-carne-nos-olhos-cirurgia-recuperacao',
-        imageUrl: '', // Inserir URL da imagem aqui
+        imageUrl: 'Oftalmologista a realizar exame de fundo de olho para detetar retinopatia diabética.webp', // Inserir URL da imagem aqui
         content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>O <strong>Pterígio</strong>, popularmente conhecido como "carne nos olhos" ou "carne crescida", é mais do que um problema estético. É uma lesão que causa desconforto constante, vermelhidão e, em casos avançados, pode até distorcer a visão cobrindo a pupila.</p>
