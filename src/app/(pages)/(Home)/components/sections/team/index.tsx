@@ -4,7 +4,7 @@ import { TeamCard, TeamCardArgs } from '../../cards/team';
 import './styles.scss';
 import Camila from '../../../../../../../public/images/WhatsApp Image 2025-03-13 at 14.50.26.jpeg';
 import Breno from '../../../../../../../public/images/WhatsApp Image 2025-03-13 at 17.42.56.jpg';
-import Vanessa from '../../../../../../../public/images/WhatsApp Image 2025-03-16 at 08.41.12_d5476c23.jpg';
+import Gabriel from '../../../../../../../public/images/WhatsApp Image 2025-03-16 at 08.41.12_d5476c23.jpg';
 import { useRef, useState } from 'react';
 
 const team: TeamCardArgs[] = [
@@ -19,9 +19,9 @@ const team: TeamCardArgs[] = [
     imageUrl: Camila.src
   },
   {
-    name: 'Dra. Vanessa Giachetto Bender',
-    crm: '197.798',
-    imageUrl: Vanessa.src
+    name: 'Dr. Gabriel Ricci Pupo',
+    crm: '223.337',
+    imageUrl: Gabriel.src
   }
   /*
     {

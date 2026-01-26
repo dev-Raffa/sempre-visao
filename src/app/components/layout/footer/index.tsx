@@ -6,6 +6,8 @@ import { FaWhatsapp } from 'react-icons/fa6';
 import { GoLocation } from 'react-icons/go';
 
 export const Footer = () => {
+  const Year = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -97,7 +99,7 @@ export const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-bottom-content">
           <Logo />
-          <p className="copyright">© 2025 Sempre Visão All Rights Reserved</p>
+          <p className="copyright">© {Year} Sempre Visão All Rights Reserved</p>
           <span></span>
         </div>
       </div>
