@@ -84,6 +84,12 @@ export const Footer = () => {
                 R. São Sebastião, 614 - Centro, Ribeirão Preto - SP, 14015-040
               </address>
             </li>
+            <li>
+              <GoLocation style={{ fontSize: '24px' }} />
+              <address>
+                R. Gen. Telles, 1259 - Centro, Franca - SP, 14405-090
+              </address>
+            </li>
           </ul>
         </div>
       </div>

@@ -18,7 +18,7 @@ export const LocationSection = () => {
   ];
 
   return (
-    <section id="Location">
+    <section id="Clinics">
       <div>
         <h2>Nossas Clinícas</h2>
       </div>
