@@ -26,7 +26,10 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-        <meta name="google-site-verification" content="VTCDLrxfHd7UDE9EICTOnJ1b0PReZW97GkWpvdm7sgc" />
+        <meta
+          name="google-site-verification"
+          content="VTCDLrxfHd7UDE9EICTOnJ1b0PReZW97GkWpvdm7sgc"
+        />
       </head>
       <body className={font.className}>
         <Header />
@@ -36,4 +39,3 @@ export default function RootLayout({
     </html>
   );
 }
-

@@ -1,12 +1,99 @@
 import { IPostList } from './post.interface';
 
 export const posts: IPostList = [
-    {
-        title: 'Presbiopia (Vista Cansada): Por que o seu braço ficou "curto" para ler? Sintomas e Tratamentos',
-        description: 'Dificuldade para ler mensagens no telemóvel, bulas ou o cardápio do restaurante? A vista cansada (presbiopia) chega para todos após os 40 anos. Descubra as causas e como a Clinica Sempre Visão pode devolver a sua visão de perto.',
-        slug:'presbiopia-vista-cansada-sintomas-tratamentos-cirurgia',
-        imageUrl: 'presbiopia-vista-cansada-sintomas-tratamentos-cirurgia.webp', 
-        content: `
+  {
+    title:
+      'Miopia Infantil: O Grau do Seu Filho Não Para de Aumentar? Entenda a Relação com as Telas',
+    description:
+      'O seu filho aperta os olhos para ver TV ou aproxima muito o rosto do celular? Vivemos uma epidemia de Miopia Infantil. Descubra como a Clinica Sempre Visão utiliza tratamentos modernos para frear o aumento do grau e proteger a visão das crianças.',
+    slug: 'miopia-infantil-sintomas-telas-controle-de-grau',
+    imageUrl: 'miopia-infantil-sintomas-telas-controle-de-grau.webp',
+    content: `
+                <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <p>Se você é pai ou mãe, provavelmente já se fez esta pergunta: <em>"Será que o uso constante de tablets e celulares está a prejudicar a visão do meu filho?"</em>. A ciência oftalmológica moderna responde: <strong>Sim, está.</strong></p>
+                    <p>O mundo vive atualmente uma verdadeira epidemia de <strong>Miopia Infantil</strong>. Na Clinica Sempre Visão, temos recebido crianças cada vez mais novas com queixas de dificuldade para enxergar de longe. O mais preocupante não é a necessidade de usar óculos, mas sim o ritmo acelerado com que o grau aumenta a cada ano.</p>
+                </section>
+
+                <section id="sintomas" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-6 mb-4">Como Saber se a Criança Tem Miopia? (Sinais de Alerta)</h2>
+                    <p>As crianças raramente sabem explicar que a visão está embaçada, pois acham que a forma como enxergam é o "normal". O diagnóstico precoce depende da observação dos pais e professores. Fique atento se o seu filho:</p>
+                    <ul class="list-disc space-y-2 pl-6 sm:pl-8">
+                        <li><strong>Aperta os olhos:</strong> Fica semicerrando os olhos para focar na lousa escolar ou na TV.</li>
+                        <li><strong>Senta-se muito perto:</strong> Precisa ficar grudado na tela da televisão para assistir a desenhos.</li>
+                        <li><strong>Baixo rendimento escolar:</strong> Perde o interesse nas aulas ou tem dificuldade em copiar do quadro.</li>
+                        <li><strong>Dores de cabeça constantes:</strong> Especialmente na região da testa, após o período escolar.</li>
+                        <li><strong>Aproxima muito os objetos:</strong> Traz o celular ou os livros quase para encostar no nariz.</li>
+                    </ul>
+                </section>
+
+                <section id="telas-e-miopia" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-6 mb-4">Qual é a Relação com as Telas e o Celular?</h2>
+                    <p>A miopia ocorre quando o globo ocular cresce mais do que o normal, tornando-se mais alongado. A ciência já comprovou que duas coisas aceleram esse crescimento anormal durante a infância:</p>
+                    <div class="bg-slate-50 border-l-4 border-blue-500 p-4 rounded-r-lg mt-4">
+                        <ol class="list-decimal space-y-2 pl-4">
+                            <li><strong>Excesso de "Visão de Perto":</strong> Passar horas focado numa tela a poucos centímetros do rosto força os músculos oculares e estimula o olho a alongar-se.</li>
+                            <li><strong>Falta de Luz Solar:</strong> Crianças que brincam pouco ao ar livre não recebem a luz natural que estimula a libertação de dopamina na retina, um hormônio crucial para impedir que o olho cresça demais.</li>
+                        </ol>
+                    </div>
+                </section>
+
+                <section id="controle-miopia" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mt-6 mb-4">Controle de Miopia: Como Frear o Aumento do Grau?</h2>
+                    <p>Antigamente, o médico apenas passava uma receita de óculos mais forte a cada ano. Hoje, na Clinica Sempre Visão, o nosso protocolo foca no <strong>Controle da Progressão da Miopia</strong>, visando impedir que a criança chegue à fase adulta com alta miopia (que gera riscos graves como descolamento de retina e glaucoma).</p>
+                    
+                    <h3 class="text-xl font-bold text-slate-800 mt-4">Tratamentos Modernos Disponíveis:</h3>
+                    <ul class="list-disc space-y-2 pl-6 sm:pl-8">
+                        <li><strong class="font-semibold text-slate-800">Colírio de Atropina Diluída:</strong> O uso diário de uma gota deste colírio em dose muito baixa antes de dormir tem se mostrado altamente eficaz e seguro para desacelerar o crescimento do olho, sem causar embaçamento na visão da criança.</li>
+                        <li><strong class="font-semibold text-slate-800">Óculos com Lentes de Desfoque Periférico:</strong> Tecnologias revolucionárias (como as lentes MiYOSMART ou Stellest) corrigem a visão central, mas criam um desfoque proposital na periferia da lente. Isso "engana" o cérebro e envia um sinal para o olho parar de crescer.</li>
+                    </ul>
+                </section>
+
+                <section id="cta-final" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
+                    <div class="mt-6 text-center">
+                        <p class="text-xl font-semibold text-slate-800 mb-3">Quando foi a última consulta do seu filho?</p>
+                        <p class="text-base text-slate-600 mb-6">A fase escolar é crítica para a visão. Não deixe que a miopia limite o futuro da sua criança.</p>
+                        <a href="https://wa.me/5516992627740" target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-green-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-green-700 transition-colors text-base sm:text-lg">
+                            Agendar Avaliação de Oftalmopediatria
+                        </a>
+                    </div>
+                </section>
+
+                <section id="faq" class="w-full faq-section mt-8 pt-6 border-t border-gray-200 text-lg text-slate-700 leading-relaxed">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-6 text-center">Perguntas Frequentes (FAQ)</h2>
+                    
+                    <div class="space-y-3 w-full">
+                        <details class="faq-item group border-b border-gray-200 pb-3">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Com que idade a criança deve fazer o primeiro exame de vista?
+                            </summary>
+                            <p class="pt-2 text-slate-600 leading-relaxed">Recomenda-se que a primeira avaliação oftalmológica completa seja feita entre os <strong>6 meses e 1 ano de idade</strong> (além do Teste do Olhinho ao nascer), e depois anualmente, especialmente antes do início da alfabetização.</p>
+                        </details>
+                        
+                        <details class="faq-item group border-b border-gray-200 pb-3">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Ler no escuro estraga a visão ou causa miopia?
+                            </summary>
+                            <p class="pt-2 text-slate-600 leading-relaxed">Não "estraga" fisicamente os olhos, mas causa <strong>fadiga ocular</strong> intensa, dores de cabeça e cansaço. O que realmente aumenta a miopia é a falta de luz solar durante o dia e o foco excessivo para perto durante muitas horas seguidas.</p>
+                        </details>
+
+                        <details class="faq-item group border-b border-gray-200 pb-3">
+                            <summary class="text-xl font-semibold text-slate-800 cursor-pointer hover:text-blue-600 list-none py-2">
+                                Quantas horas de tela por dia são seguras?
+                            </summary>
+                            <p class="pt-2 text-slate-600 leading-relaxed">As sociedades de pediatria e oftalmologia recomendam: <strong>Zero telas</strong> para menores de 2 anos; <strong>máximo de 1 hora</strong> por dia para crianças de 2 a 5 anos; e limite sensato com pausas frequentes (Regra 20-20-20) para crianças maiores e adolescentes.</p>
+                        </details>
+                    </div>
+                </section>
+        `
+  },
+  {
+    title:
+      'Presbiopia (Vista Cansada): Por que o seu braço ficou "curto" para ler? Sintomas e Tratamentos',
+    description:
+      'Dificuldade para ler mensagens no telemóvel, bulas ou o cardápio do restaurante? A vista cansada (presbiopia) chega para todos após os 40 anos. Descubra as causas e como a Clinica Sempre Visão pode devolver a sua visão de perto.',
+    slug: 'presbiopia-vista-cansada-sintomas-tratamentos-cirurgia',
+    imageUrl: 'presbiopia-vista-cansada-sintomas-tratamentos-cirurgia.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Você passou a vida toda a enxergar perfeitamente, mas de repente, após o seu 40º aniversário, as letras miúdas do celular começaram a embaralhar. A sua primeira reação instintiva é esticar o braço para afastar a tela e conseguir ler. Bem-vindo ao clube da <strong>Presbiopia</strong>, popularmente conhecida como "vista cansada".</p>
                     <p>Na Clinica Sempre Visão, ouvimos diariamente a queixa da "síndrome do braço curto". A boa notícia é que esta é uma condição natural do envelhecimento ocular e possui soluções modernas e muito eficientes para lhe devolver o conforto visual.</p>
@@ -88,13 +175,15 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Mapeamento de Retina: O que é, Para que Serve e Como é Feito o Exame do Fundo de Olho',
-        description: 'Descubra a importância do Mapeamento de Retina para a saúde dos seus olhos. A Clinica Sempre Visão explica como este exame indolor detecta doenças silenciosas como glaucoma, tumores e rasgos na retina.',
-        slug:'mapeamento-de-retina-exame-fundo-de-olho',
-        imageUrl: 'mapeamento-de-retina-exame-fundo-de-olho.wepb',
-        content: `
+  },
+  {
+    title:
+      'Mapeamento de Retina: O que é, Para que Serve e Como é Feito o Exame do Fundo de Olho',
+    description:
+      'Descubra a importância do Mapeamento de Retina para a saúde dos seus olhos. A Clinica Sempre Visão explica como este exame indolor detecta doenças silenciosas como glaucoma, tumores e rasgos na retina.',
+    slug: 'mapeamento-de-retina-exame-fundo-de-olho',
+    imageUrl: 'mapeamento-de-retina-exame-fundo-de-olho.wepb',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Muitas pessoas acreditam que o exame de vista serve apenas para descobrir se precisam de óculos. No entanto, a verdadeira saúde ocular é avaliada na parte de trás do olho. É exatamente para isso que serve o <strong>Mapeamento de Retina</strong>.</p>
                     <p>Na Clinica Sempre Visão, consideramos este exame um dos pilares da oftalmologia preventiva. Ele permite que o médico investigue detalhadamente o "fundo do olho", diagnosticando doenças silenciosas antes mesmo que elas afetem a sua visão.</p>
@@ -151,13 +240,15 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Degeneração Macular (DMRI): Causas, Sintomas e Tratamentos para Proteger a Visão Central',
-        description: 'A DMRI é a principal causa de perda de visão na terceira idade. Entenda a diferença entre a DMRI Seca e Úmida, os sintomas como linhas tortuosas e como as injeções intraoculares podem paralisar a doença na Clinica Sempre Visão.',
-        slug:'degeneracao-macular-dmri-sintomas-injecao-anti-vegf',
-        imageUrl: 'degeneracao-macular-dmri-sintomas-injecao-anti-vegf.webp',
-        content: `
+  },
+  {
+    title:
+      'Degeneração Macular (DMRI): Causas, Sintomas e Tratamentos para Proteger a Visão Central',
+    description:
+      'A DMRI é a principal causa de perda de visão na terceira idade. Entenda a diferença entre a DMRI Seca e Úmida, os sintomas como linhas tortuosas e como as injeções intraoculares podem paralisar a doença na Clinica Sempre Visão.',
+    slug: 'degeneracao-macular-dmri-sintomas-injecao-anti-vegf',
+    imageUrl: 'degeneracao-macular-dmri-sintomas-injecao-anti-vegf.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Imagine tentar ler um livro, mas as letras bem no centro da página estão borradas ou simplesmente desaparecem, enquanto as margens continuam nítidas. Este é o impacto devastador da <strong>Degeneração Macular Relacionada à Idade (DMRI)</strong>.</p>
                     <p>A DMRI é a principal causa de cegueira legal em pessoas com mais de 60 anos. Na Clinica Sempre Visão, contamos com tecnologia de ponta para diagnosticar essa condição precocemente e oferecer os tratamentos mais eficazes para preservar a sua independência.</p>
@@ -215,13 +306,15 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Moscas Volantes e Flashes de Luz? Cuidado, Pode Ser Descolamento de Retina',
-        description: 'Ver pontos pretos flutuando ou flashes de luz repentinos exige avaliação urgente. Entenda os sinais de perigo do descolamento de retina, quem corre mais risco e como as cirurgias (Vitrectomia e Laser) podem salvar a visão.',
-        slug:'descolamento-retina-sintomas-moscas-volantes-cirurgia',
-        imageUrl: 'descolamento-retina-sintomas-moscas-volantes-cirurgia.webp',
-        content: `
+  },
+  {
+    title:
+      'Moscas Volantes e Flashes de Luz? Cuidado, Pode Ser Descolamento de Retina',
+    description:
+      'Ver pontos pretos flutuando ou flashes de luz repentinos exige avaliação urgente. Entenda os sinais de perigo do descolamento de retina, quem corre mais risco e como as cirurgias (Vitrectomia e Laser) podem salvar a visão.',
+    slug: 'descolamento-retina-sintomas-moscas-volantes-cirurgia',
+    imageUrl: 'descolamento-retina-sintomas-moscas-volantes-cirurgia.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Na oftalmologia, o tempo é precioso. O <strong>Descolamento de Retina</strong> é uma das maiores urgências médicas oculares que existem. Se não for tratado rapidamente, pode resultar em perda permanente da visão em questão de dias.</p>
                     <p>Na Clinica Sempre Visão, orientamos todos os pacientes a conhecerem os sinais de alerta dessa condição. Se a retina (o tecido no fundo do olho que capta as imagens) se soltar da parede ocular, ela fica sem nutrição e começa a morrer.</p>
@@ -280,13 +373,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Cirurgia de Estrabismo: Como Corrigir o "Olho Desviado" em Crianças e Adultos',
-        description: 'O estrabismo tem correção em qualquer idade! Entenda os tipos de desvio ocular, como o estrabismo afeta a auto-estima e a visão, e como funciona a cirurgia de alinhamento dos músculos oculares na Clinica Sempre Visão.',
-        slug:'cirurgia-de-estrabismo-correcao-olho-desviado-adulto-crianca',
-        imageUrl: 'cirurgia-de-estrabismo-correcao-olho-desviado-adulto-crianca.webp',
-        content: `
+  },
+  {
+    title:
+      'Cirurgia de Estrabismo: Como Corrigir o "Olho Desviado" em Crianças e Adultos',
+    description:
+      'O estrabismo tem correção em qualquer idade! Entenda os tipos de desvio ocular, como o estrabismo afeta a auto-estima e a visão, e como funciona a cirurgia de alinhamento dos músculos oculares na Clinica Sempre Visão.',
+    slug: 'cirurgia-de-estrabismo-correcao-olho-desviado-adulto-crianca',
+    imageUrl:
+      'cirurgia-de-estrabismo-correcao-olho-desviado-adulto-crianca.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>O <strong>Estrabismo</strong>, condição onde os olhos não estão alinhados e apontam para direções diferentes, é frequentemente rodeado de mitos. O principal deles é que "só tem jeito se operar em criança". <strong>Isso é falso!</strong></p>
                     <p>Na Clinica Sempre Visão, tratamos o estrabismo tanto em crianças (para evitar o desenvolvimento de "olho preguiçoso") quanto em adultos, onde a cirurgia devolve não apenas o alinhamento estético, mas também resgata profundamente a auto-estima e as interações sociais.</p>
@@ -344,13 +440,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Diabetes e Visão: O Que é a Retinopatia Diabética e Como Prevenir a Cegueira',
-        description: 'Você sabia que o diabetes pode afetar gravemente sua visão? A Retinopatia Diabética é uma complicação silenciosa que exige atenção. Saiba como o controle da glicemia e exames de fundo de olho podem salvar sua visão.',
-        slug: 'retinopatia-diabetica-sintomas-tratamento-laser-injecao',
-        imageUrl: 'Paciente monitorizando a glicemia com óculos ao fundo, ilustrando a relação entre diabetes e saúde ocular.webp', // Inserir URL da imagem aqui
-        content: `
+  },
+  {
+    title:
+      'Diabetes e Visão: O Que é a Retinopatia Diabética e Como Prevenir a Cegueira',
+    description:
+      'Você sabia que o diabetes pode afetar gravemente sua visão? A Retinopatia Diabética é uma complicação silenciosa que exige atenção. Saiba como o controle da glicemia e exames de fundo de olho podem salvar sua visão.',
+    slug: 'retinopatia-diabetica-sintomas-tratamento-laser-injecao',
+    imageUrl:
+      'Paciente monitorizando a glicemia com óculos ao fundo, ilustrando a relação entre diabetes e saúde ocular.webp', // Inserir URL da imagem aqui
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>O diabetes é uma doença sistémica que afeta todo o corpo, mas os olhos são um dos órgãos mais sensíveis às flutuações de açúcar no sangue. A <strong>Retinopatia Diabética</strong> é a principal causa de cegueira entre adultos em idade ativa.</p>
                     <p>Na Clinica Sempre Visão, sabemos que muitos pacientes só procuram o oftalmologista quando a visão já está embaçada. O nosso objetivo é mudar esse cenário através da informação e da prevenção ativa.</p>
@@ -421,13 +520,15 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Pterígio: Tudo sobre a Cirurgia de "Carne Crescida" nos Olhos',
-        description: 'Seus olhos estão sempre vermelhos e com uma "pele" crescendo em direção à córnea? Pode ser Pterígio. Entenda as causas (sol e vento), por que não se deve usar colírios clareadores e como funciona a cirurgia moderna com transplante conjuntival.',
-        slug: 'pterigio-carne-nos-olhos-cirurgia-recuperacao',
-        imageUrl: 'Oftalmologista a realizar exame de fundo de olho para detetar retinopatia diabética.webp', // Inserir URL da imagem aqui
-        content: `
+  },
+  {
+    title: 'Pterígio: Tudo sobre a Cirurgia de "Carne Crescida" nos Olhos',
+    description:
+      'Seus olhos estão sempre vermelhos e com uma "pele" crescendo em direção à córnea? Pode ser Pterígio. Entenda as causas (sol e vento), por que não se deve usar colírios clareadores e como funciona a cirurgia moderna com transplante conjuntival.',
+    slug: 'pterigio-carne-nos-olhos-cirurgia-recuperacao',
+    imageUrl:
+      'Oftalmologista a realizar exame de fundo de olho para detetar retinopatia diabética.webp', // Inserir URL da imagem aqui
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>O <strong>Pterígio</strong>, popularmente conhecido como "carne nos olhos" ou "carne crescida", é mais do que um problema estético. É uma lesão que causa desconforto constante, vermelhidão e, em casos avançados, pode até distorcer a visão cobrindo a pupila.</p>
                     <p>Muitos pacientes convivem anos com o problema por medo da cirurgia ou receio de que "a carne volte". Na Clinica Sempre Visão, utilizamos técnicas avançadas que reduzem drasticamente essa chance de retorno.</p>
@@ -490,13 +591,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title: 'Qual a Melhor Lente para Catarata? Guia Definitivo para Escolher sua Lente Intraocular',
-        description: 'Monofocal, Trifocal ou Tórica? Entenda as diferenças entre as lentes intraoculares (LIOs) para cirurgia de catarata e descubra qual oferece a melhor visão para o seu estilo de vida. Um comparativo completo da Clinica Sempre Visão.',
-        slug: 'qual-melhor-lente-catarata-monofocal-trifocal-torica',
-        imageUrl: 'Oftalmologista comparando tipos de lentes intraoculares (monofocal e multifocal) para paciente de cirurgia de catarata.webp',
-        content: `
+  },
+  {
+    title:
+      'Qual a Melhor Lente para Catarata? Guia Definitivo para Escolher sua Lente Intraocular',
+    description:
+      'Monofocal, Trifocal ou Tórica? Entenda as diferenças entre as lentes intraoculares (LIOs) para cirurgia de catarata e descubra qual oferece a melhor visão para o seu estilo de vida. Um comparativo completo da Clinica Sempre Visão.',
+    slug: 'qual-melhor-lente-catarata-monofocal-trifocal-torica',
+    imageUrl:
+      'Oftalmologista comparando tipos de lentes intraoculares (monofocal e multifocal) para paciente de cirurgia de catarata.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>A cirurgia de catarata não é apenas sobre remover a visão embaçada; é uma oportunidade única de <strong>recuperar a independência dos óculos</strong>. A grande estrela dessa transformação é a <strong>Lente Intraocular (LIO)</strong>, o implante que substitui o cristalino envelhecido.</p>
                     <p>Mas, com tantas opções no mercado (nacionais, importadas, premium), como saber qual é a ideal para você? Na Clinica Sempre Visão, ajudamos você a navegar por essas escolhas para encontrar a visão perfeita para o seu estilo de vida.</p>
@@ -582,16 +686,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title:
-            'Ceratocone: Por que coçar os olhos pode deformar sua córnea e prejudicar a visão',
-        description:
-            'Seu grau de astigmatismo muda todo ano? Você tem o hábito frequente de coçar os olhos? Cuidado, pode ser Ceratocone. Entenda o que é essa doença, seus riscos e conheça os tratamentos modernos como Crosslinking e Anel de Ferrara.',
-        slug: 'ceratocone-sintomas-cocar-olhos-tratamentos-crosslinking',
-        imageUrl:
-            'Jovem esfregando os olhos com força, principal fator de risco para o desenvolvimento e agravamento do ceratocone.webp', // Inserir URL da imagem aqui
-        content: `
+  },
+  {
+    title:
+      'Ceratocone: Por que coçar os olhos pode deformar sua córnea e prejudicar a visão',
+    description:
+      'Seu grau de astigmatismo muda todo ano? Você tem o hábito frequente de coçar os olhos? Cuidado, pode ser Ceratocone. Entenda o que é essa doença, seus riscos e conheça os tratamentos modernos como Crosslinking e Anel de Ferrara.',
+    slug: 'ceratocone-sintomas-cocar-olhos-tratamentos-crosslinking',
+    imageUrl:
+      'Jovem esfregando os olhos com força, principal fator de risco para o desenvolvimento e agravamento do ceratocone.webp', // Inserir URL da imagem aqui
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Parece um hábito inofensivo: sentir uma coceira e esfregar os olhos com força para aliviar. Porém, esse gesto repetitivo pode ser o gatilho para uma doença grave e progressiva chamada <strong>Ceratocone</strong>.</p>
                     <p>Na Clinica Sempre Visão, recebemos frequentemente pacientes jovens preocupados porque "o grau do óculos não para de aumentar". Muitas vezes, o diagnóstico é o Ceratocone. Neste artigo, vamos explicar por que isso acontece, como parar a progressão da doença e evitar o transplante de córnea.</p>
@@ -672,16 +776,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title:
-            'Olho Seco: Por que seus olhos ardem e parecem ter "areia"? Causas e Tratamentos',
-        description:
-            'Sensação de areia, ardor e visão embaçada ao fim do dia? Você pode ter Síndrome do Olho Seco. Descubra como o uso de telas e o ar condicionado afetam sua visão e conheça os tratamentos modernos na Clinica Sempre Visão.',
-        slug: 'sindrome-olho-seco-ardor-areia-tratamento',
-        imageUrl:
-            'Pessoa esfregando os olhos cansados em frente ao computador, sintoma de síndrome do olho seco.webp', // Inserir URL da imagem aqui
-        content: `
+  },
+  {
+    title:
+      'Olho Seco: Por que seus olhos ardem e parecem ter "areia"? Causas e Tratamentos',
+    description:
+      'Sensação de areia, ardor e visão embaçada ao fim do dia? Você pode ter Síndrome do Olho Seco. Descubra como o uso de telas e o ar condicionado afetam sua visão e conheça os tratamentos modernos na Clinica Sempre Visão.',
+    slug: 'sindrome-olho-seco-ardor-areia-tratamento',
+    imageUrl:
+      'Pessoa esfregando os olhos cansados em frente ao computador, sintoma de síndrome do olho seco.webp', // Inserir URL da imagem aqui
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Você já sentiu como se tivesse um grão de areia dentro dos olhos, mesmo não havendo nada lá? Ou percebe que, ao final de um dia de trabalho no computador, sua visão fica embaçada e seus olhos vermelhos? Esses são os sinais clássicos da <strong>Síndrome do Olho Seco</strong>.</p>
                     <p>Na Clinica Sempre Visão, temos notado um aumento expressivo de pacientes com essa queixa. O que antes era comum apenas em idosos, hoje afeta jovens e adultos devido ao estilo de vida moderno. Neste artigo, explicamos por que isso acontece e, principalmente, como aliviar esse desconforto.</p>
@@ -771,16 +875,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title:
-            'Glaucoma: O Ladrão Silencioso da Visão e a Importância do Diagnóstico Precoce',
-        description:
-            'O glaucoma é a principal causa de cegueira irreversível no mundo. Saiba por que ele não apresenta sintomas iniciais, quem faz parte do grupo de risco e como o exame de pressão ocular pode salvar sua visão. Um guia completo da Clinica Sempre Visão.',
-        slug: 'glaucoma-sintomas-tratamento-prevencao-cegueira',
-        imageUrl:
-            'Paciente realizando exame de medição de pressão ocular (tonometria) para prevenção do glaucoma.webp',
-        content: `
+  },
+  {
+    title:
+      'Glaucoma: O Ladrão Silencioso da Visão e a Importância do Diagnóstico Precoce',
+    description:
+      'O glaucoma é a principal causa de cegueira irreversível no mundo. Saiba por que ele não apresenta sintomas iniciais, quem faz parte do grupo de risco e como o exame de pressão ocular pode salvar sua visão. Um guia completo da Clinica Sempre Visão.',
+    slug: 'glaucoma-sintomas-tratamento-prevencao-cegueira',
+    imageUrl:
+      'Paciente realizando exame de medição de pressão ocular (tonometria) para prevenção do glaucoma.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Você sabia que é possível perder a visão lentamente sem sentir dor ou perceber qualquer mudança imediata? Este é o perigo do <strong>Glaucoma</strong>, conhecido mundialmente como o "ladrão silencioso da visão".</p>
                     <p>Na Clinica Sempre Visão, o glaucoma é uma das condições que levamos mais a sério. Por ser a principal causa de <strong>cegueira irreversível</strong> no mundo, o nosso foco total é na prevenção. Neste artigo, explicamos como essa doença age e por que o seu check-up anual é a única arma contra ela.</p>
@@ -869,16 +973,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title:
-            '7 Mitos e Verdades sobre a Catarata: O Que Você Precisa Saber Antes de Operar',
-        description:
-            'Colírio cura catarata? É preciso esperar "amadurecer"? A doença volta? A Clinica Sempre Visão desvenda os 7 maiores mitos sobre a cirurgia de catarata para que você possa cuidar da sua visão com segurança e informação correta.',
-        slug: 'mitos-e-verdades-sobre-catarata',
-        imageUrl:
-            'Médico oftalmologista da Clinica Sempre Visão explicando verdades sobre a catarata para paciente idosa.webp',
-        content: `
+  },
+  {
+    title:
+      '7 Mitos e Verdades sobre a Catarata: O Que Você Precisa Saber Antes de Operar',
+    description:
+      'Colírio cura catarata? É preciso esperar "amadurecer"? A doença volta? A Clinica Sempre Visão desvenda os 7 maiores mitos sobre a cirurgia de catarata para que você possa cuidar da sua visão com segurança e informação correta.',
+    slug: 'mitos-e-verdades-sobre-catarata',
+    imageUrl:
+      'Médico oftalmologista da Clinica Sempre Visão explicando verdades sobre a catarata para paciente idosa.webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Quando o assunto é a saúde dos nossos olhos, a sabedoria popular nem sempre está correta. A <strong>catarata</strong>, sendo a cirurgia mais realizada na oftalmologia mundial, é cercada de muitas informações desencontradas que podem gerar medo ou atrasar o diagnóstico.</p>
                     <p>Na Clinica Sempre Visão, acreditamos que a informação é o primeiro passo para o tratamento. Por isso, reunimos nossa equipe de especialistas para esclarecer, de uma vez por todas, o que é fato e o que é ficção sobre a catarata.</p>
@@ -958,16 +1062,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title:
-            'Cirurgia Refrativa a Laser: O Guia para Deixar de Usar Óculos (LASIK e PRK)',
-        description:
-            'Sonha em viver sem óculos ou lentes de contato? Descubra tudo sobre a Cirurgia Refrativa a Laser. A Clinica Sempre Visão explica as diferenças entre LASIK e PRK, quem pode fazer a cirurgia, como é a recuperação e os benefícios de corrigir miopia, astigmatismo e hipermetropia.',
-        slug: 'cirurgia-refrativa-laser-lasik-prk-adeus-oculos',
-        imageUrl:
-            'Mulher sorrindo segurando óculos de grau em consultório, decidindo pela cirurgia refrativa..webp',
-        content: `
+  },
+  {
+    title:
+      'Cirurgia Refrativa a Laser: O Guia para Deixar de Usar Óculos (LASIK e PRK)',
+    description:
+      'Sonha em viver sem óculos ou lentes de contato? Descubra tudo sobre a Cirurgia Refrativa a Laser. A Clinica Sempre Visão explica as diferenças entre LASIK e PRK, quem pode fazer a cirurgia, como é a recuperação e os benefícios de corrigir miopia, astigmatismo e hipermetropia.',
+    slug: 'cirurgia-refrativa-laser-lasik-prk-adeus-oculos',
+    imageUrl:
+      'Mulher sorrindo segurando óculos de grau em consultório, decidindo pela cirurgia refrativa..webp',
+    content: `
                 <section id="introducao" class="w-full text-lg text-slate-700 leading-relaxed space-y-4 mb-6">
                     <p>Imagine acordar de manhã e enxergar o relógio nitidamente sem precisar tatear a mesa de cabeceira em busca dos óculos. Ou praticar esportes e nadar sem a preocupação com lentes de contato. Para milhões de pessoas, essa liberdade é conquistada através da <strong class="font-semibold text-slate-800">Cirurgia Refrativa a Laser</strong>.</p>
                     <p>Na Clinica Sempre Visão, sabemos que a decisão de operar os olhos envolve expectativas e dúvidas. Este artigo foi preparado para esclarecer como o procedimento funciona, as tecnologias que utilizamos e se você é um candidato ideal para dar adeus ao "grau".</p>
@@ -1075,16 +1179,16 @@ export const posts: IPostList = [
                     </div>
                 </section>
         `
-    },
-    {
-        title:
-            'Catarata: O que É, Principais Sintomas e Quando a Cirurgia é Indicada',
-        description:
-            'Um guia completo da Clinica Sempre Visão sobre a catarata, a principal causa de cegueira reversível. Entenda o que é, os sintomas de alerta (como visão embaçada) e descubra qual o momento certo de optar pela cirurgia para restaurar sua visão.',
-        slug: 'catarata-o-que-e-sintomas-quando-operar',
-        imageUrl:
-            'Oftalmologista da Clinica Sempre Visão explicando o diagnóstico de catarata para um paciente idoso em consultório.png',
-        content: `
+  },
+  {
+    title:
+      'Catarata: O que É, Principais Sintomas e Quando a Cirurgia é Indicada',
+    description:
+      'Um guia completo da Clinica Sempre Visão sobre a catarata, a principal causa de cegueira reversível. Entenda o que é, os sintomas de alerta (como visão embaçada) e descubra qual o momento certo de optar pela cirurgia para restaurar sua visão.',
+    slug: 'catarata-o-que-e-sintomas-quando-operar',
+    imageUrl:
+      'Oftalmologista da Clinica Sempre Visão explicando o diagnóstico de catarata para um paciente idoso em consultório.png',
+    content: `
                 <section id="o-que-e" class="space-y-6">
                     <p>A <strong class="font-semibold text-slate-800">catarata</strong> é uma das principais causas de perda de visão no mundo, mas felizmente, é <strong class="font-semibold text-slate-800">totalmente reversível</strong> com o tratamento adequado. Ela ocorre quando o <strong class="font-semibold text-slate-800">cristalino</strong>, a lente natural do nosso olho, perde sua transparência e se torna opaco. Esse processo impede que a luz chegue com clareza à retina, tornando a visão progressivamente embaçada ou "nublada".</p>
                     <p>Na Clinica Sempre Visão, entendemos que um diagnóstico de catarata pode gerar dúvidas. Por isso, preparamos este guia para explicar tudo o que você precisa saber sobre essa condição, desde os primeiros sinais até o momento certo de considerar o tratamento.</p>
@@ -1167,16 +1271,16 @@ export const posts: IPostList = [
                 </section>
             
         `
-    },
-    {
-        title:
-            'Cirurgia de Catarata: O Guia Definitivo sobre o Procedimento, Lentes Intraoculares e Recuperação',
-        description:
-            'Prepare-se para a cirurgia de catarata. A Clinica Sempre Visão explica em detalhes como funciona o procedimento moderno (facoemulsificação), os tipos de lentes intraoculares (LIOs) para corrigir grau (multifocais, tóricas) e o guia passo a passo da recuperação pós-operatória.',
-        slug: 'cirurgia-de-catarata-procedimento-lentes-intraoculares-recuperacao',
-        imageUrl:
-            'Cirurgião oftalmologista realizando cirurgia de catarata com equipamento moderno de facoemulsificação.png',
-        content: `
+  },
+  {
+    title:
+      'Cirurgia de Catarata: O Guia Definitivo sobre o Procedimento, Lentes Intraoculares e Recuperação',
+    description:
+      'Prepare-se para a cirurgia de catarata. A Clinica Sempre Visão explica em detalhes como funciona o procedimento moderno (facoemulsificação), os tipos de lentes intraoculares (LIOs) para corrigir grau (multifocais, tóricas) e o guia passo a passo da recuperação pós-operatória.',
+    slug: 'cirurgia-de-catarata-procedimento-lentes-intraoculares-recuperacao',
+    imageUrl:
+      'Cirurgião oftalmologista realizando cirurgia de catarata com equipamento moderno de facoemulsificação.png',
+    content: `
                 <section id="introducao" class="space-y-6">
                     <p>A <strong class="font-semibold text-slate-800">cirurgia de catarata</strong> é um dos procedimentos mais seguros e eficazes da medicina moderna. Ela consiste na remoção do cristalino opaco e sua substituição por uma lente intraocular (LIO) artificial e transparente, restaurando a nitidez da visão. Graças aos avanços tecnológicos, a cirurgia é rápida, indolor e de recuperação acelerada.</p>
                     <p>Se você ou um ente querido tem indicação para a cirurgia, é natural ter dúvidas. Na Clinica Sempre Visão, priorizamos sua confiança. Este guia detalha o passo a passo do procedimento, os tipos de lentes disponíveis e o que esperar da recuperação.</p>
@@ -1268,15 +1372,15 @@ export const posts: IPostList = [
                 </section>
             
         `
-    },
-    {
-        title:
-            'Coquetel de inauguração da Sempre Visão em Franca celebra nova fase da clínica com convidados especiais',
-        slug: 'coquetel-de-inauguracao-da-sempre-visao-em-franca-celebra-nova-fase-da-clinica-com-convidados-especiais',
-        imageUrl: 'coquetel-inauguracao-sempre-visao-em-franca-capa.JPG',
-        description:
-            'No dia 16 de outubro, a Sempre Visão realizou um coquetel de inauguração que reuniu convidados especiais, parceiros, amigos e personalidades da região. O evento marcou a abertura oficial da nova unidade em Franca e celebrou uma nova etapa na trajetória de excelência da clínica.',
-        content: `
+  },
+  {
+    title:
+      'Coquetel de inauguração da Sempre Visão em Franca celebra nova fase da clínica com convidados especiais',
+    slug: 'coquetel-de-inauguracao-da-sempre-visao-em-franca-celebra-nova-fase-da-clinica-com-convidados-especiais',
+    imageUrl: 'coquetel-inauguracao-sempre-visao-em-franca-capa.JPG',
+    description:
+      'No dia 16 de outubro, a Sempre Visão realizou um coquetel de inauguração que reuniu convidados especiais, parceiros, amigos e personalidades da região. O evento marcou a abertura oficial da nova unidade em Franca e celebrou uma nova etapa na trajetória de excelência da clínica.',
+    content: `
         <h2>Coquetel de inauguração da Sempre Visão em Franca celebra nova fase da clínica com convidados especiais</h2>
 
         <p>No dia <strong>16 de outubro</strong>, a <strong>Sempre Visão</strong> realizou um coquetel de inauguração que reuniu convidados especiais, parceiros, amigos e personalidades da região. O evento marcou a abertura oficial da nova unidade em Franca e celebrou uma nova etapa na trajetória de excelência da clínica.</p>
@@ -1290,38 +1394,38 @@ export const posts: IPostList = [
         <p>O evento foi um verdadeiro momento de <strong>celebração</strong>, <strong>união</strong> e <strong>inspiração</strong>, mostrando que a clínica segue firme em sua missão: <em>transformar vidas através da visão, com excelência, cuidado e humanidade.</em></p>
 
     `,
-        galleryImages: [
-            'coquetel-inauguracao-sempre-visao-em-franca-001.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-002.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-003.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-004.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-005.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-006.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-007.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-008.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-009.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-010.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-011.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-012.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-013.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-014.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-015.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-016.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-017.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-018.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-019.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-020.JPG',
-            'coquetel-inauguracao-sempre-visao-em-franca-021.JPG'
-        ]
-    },
-    {
-        title: 'Sempre Visão chega a Franca com tecnologia e cuidado humanizado',
-        slug: 'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado',
-        description:
-            'No dia 13 de outubro, a cidade de Franca ganhou uma nova referência em saúde ocular: a Sempre Visão, clínica oftalmológica do Grupo Sempre, abriu oficialmente suas portas e já está atendendo pacientes na Rua General Telles, 1259, ao lado da Sempre Sorrindo. A nova unidade chega para oferecer à população o que há de mais moderno em cuidados com a visão, combinando tecnologia de ponta, atendimento humanizado e uma equipe altamente especializada.',
-        imageUrl:
-            'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado.JPG',
-        content: `
+    galleryImages: [
+      'coquetel-inauguracao-sempre-visao-em-franca-001.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-002.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-003.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-004.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-005.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-006.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-007.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-008.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-009.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-010.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-011.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-012.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-013.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-014.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-015.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-016.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-017.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-018.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-019.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-020.JPG',
+      'coquetel-inauguracao-sempre-visao-em-franca-021.JPG'
+    ]
+  },
+  {
+    title: 'Sempre Visão chega a Franca com tecnologia e cuidado humanizado',
+    slug: 'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado',
+    description:
+      'No dia 13 de outubro, a cidade de Franca ganhou uma nova referência em saúde ocular: a Sempre Visão, clínica oftalmológica do Grupo Sempre, abriu oficialmente suas portas e já está atendendo pacientes na Rua General Telles, 1259, ao lado da Sempre Sorrindo. A nova unidade chega para oferecer à população o que há de mais moderno em cuidados com a visão, combinando tecnologia de ponta, atendimento humanizado e uma equipe altamente especializada.',
+    imageUrl:
+      'sempre-visao-chega-a-franca-com-tecnologia-e-cuidado-humanizado.JPG',
+    content: `
         <h2>Sempre Visão chega a Franca com tecnologia e cuidado humanizado</h2>
 
         <p>No dia <strong>13 de outubro</strong>, a cidade de Franca ganhou uma nova referência em saúde ocular: a <strong>Sempre Visão</strong>, clínica oftalmológica do <strong>Grupo Sempre</strong>, abriu oficialmente suas portas e já está atendendo pacientes na <strong>Rua General Telles, 1259</strong>, ao lado da Sempre Sorrindo. A nova unidade chega para oferecer à população o que há de mais moderno em cuidados com a visão, combinando tecnologia de ponta, atendimento humanizado e uma equipe altamente especializada.</p>
@@ -1352,18 +1456,18 @@ export const posts: IPostList = [
 
         <p><strong>Endereço:</strong> Rua General Telles, 1259 – Ao lado da Sempre Sorrindo, em frente ao terminal.</p>
     `
-    },
-    {
-        title:
-            'Sempre Visão realiza dezenas de cirurgias de catarata no primeiro mês de funcionamento — sem filas e com excelência',
-        slug: 'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento-sem-filas-e-com-excelencia',
-        imageUrl:
-            'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento.JPG',
-        description: `A clínica oftalmológica Sempre Visão, inaugurada há apenas um mês, já comemora um marco importante: dezenas de cirurgias de catarata foram realizadas com sucesso e, o melhor, sem filas de espera. A unidade, que já se destaca entre as principais referências em oftalmologia da região, tem como missão restaurar a visão e transformar vidas.
+  },
+  {
+    title:
+      'Sempre Visão realiza dezenas de cirurgias de catarata no primeiro mês de funcionamento — sem filas e com excelência',
+    slug: 'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento-sem-filas-e-com-excelencia',
+    imageUrl:
+      'sempre-visao-realiza-dezenas-de-cirurgias-de-catarata-no-primeiro-mes-de-funcionamento.JPG',
+    description: `A clínica oftalmológica Sempre Visão, inaugurada há apenas um mês, já comemora um marco importante: dezenas de cirurgias de catarata foram realizadas com sucesso e, o melhor, sem filas de espera. A unidade, que já se destaca entre as principais referências em oftalmologia da região, tem como missão restaurar a visão e transformar vidas.
     Idealizada pelos oftalmologistas Dr. Raphael Brigagão e Dr. Breno Reis, a Sempre Visão nasceu com um propósito claro: oferecer atendimento humanizado, rápido e de qualidade, especialmente para quem enfrenta problemas como a catarata, uma das principais causas de cegueira reversível no mundo.
     “O nosso propósito é realizar o sonho de pessoas que têm dificuldade para enxergar e ajudá-las a terem suas visões restauradas”, explica Dr. Raphael.
     Com tecnologia de ponta, equipe especializada e estrutura pensada para o bem-estar dos pacientes, a clínica tem se destacado por agilizar o acesso à cirurgia de catarata, promovendo mais qualidade de vida a quem tanto precisa.`,
-        content: `
+    content: `
         <p>
             A clínica oftalmológica Sempre Visão, inaugurada há apenas um mês, já comemora um marco importante: dezenas de cirurgias de catarata foram realizadas com sucesso e, o melhor, sem filas de espera. A unidade, que já se destaca entre as principais referências em oftalmologia da região, tem como missão restaurar a visão e transformar vidas.
         </p>
@@ -1401,15 +1505,15 @@ export const posts: IPostList = [
             <li>📍 Rua São Sebastião, 614, Centro, Ribeirão Preto, SP.</li>
         </ul>
     `
-    },
-    {
-        title: 'Por que escolher a Sempre Visão para a sua cirurgia de catarata?',
-        slug: 'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata',
-        imageUrl:
-            'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata.JPG',
-        description:
-            'A cirurgia de catarata é um dos procedimentos oftalmológicos mais seguros e eficazes para recuperar a visão. Na Sempre Visão, você encontra tecnologia de ponta, equipe médica especializada e um atendimento humanizado. Confira os diferenciais que tornam a Sempre Visão a melhor escolha para sua cirurgia de catarata.',
-        content: `
+  },
+  {
+    title: 'Por que escolher a Sempre Visão para a sua cirurgia de catarata?',
+    slug: 'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata',
+    imageUrl:
+      'por-que-escolher-a-sempre-visao-para-a-sua-cirurgia-de-catarata.JPG',
+    description:
+      'A cirurgia de catarata é um dos procedimentos oftalmológicos mais seguros e eficazes para recuperar a visão. Na Sempre Visão, você encontra tecnologia de ponta, equipe médica especializada e um atendimento humanizado. Confira os diferenciais que tornam a Sempre Visão a melhor escolha para sua cirurgia de catarata.',
+    content: `
         <p>
             A cirurgia de catarata é hoje um dos procedimentos oftalmológicos mais seguros, rápidos e eficazes para quem busca recuperar a visão com qualidade de vida. Na Sempre Visão, essa cirurgia é realizada com tecnologia de última geração, por uma equipe médica especializada e com total atenção ao bem-estar do paciente.
         </p>
@@ -1469,15 +1573,15 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-    },
-    {
-        title:
-            'Como saber a hora certa de operar a catarata? Especialistas da Sempre Visão explicam',
-        slug: 'como-saber-a-hora-certa-de-operar-a-catarata-especialistas-da-sempre-visao-explicam',
-        imageUrl: 'como-saber-a-hora-certa-de-operar-a-catarata.JPG',
-        description:
-            'A catarata é uma condição oftalmológica muito comum, especialmente após os 60 anos, e pode causar sérios prejuízos à qualidade de vida se não for tratada corretamente. Mas afinal, qual é o momento ideal para operar a catarata? A equipe médica da Sempre Visão responde essa e outras dúvidas frequentes sobre o assunto.',
-        content: `
+  },
+  {
+    title:
+      'Como saber a hora certa de operar a catarata? Especialistas da Sempre Visão explicam',
+    slug: 'como-saber-a-hora-certa-de-operar-a-catarata-especialistas-da-sempre-visao-explicam',
+    imageUrl: 'como-saber-a-hora-certa-de-operar-a-catarata.JPG',
+    description:
+      'A catarata é uma condição oftalmológica muito comum, especialmente após os 60 anos, e pode causar sérios prejuízos à qualidade de vida se não for tratada corretamente. Mas afinal, qual é o momento ideal para operar a catarata? A equipe médica da Sempre Visão responde essa e outras dúvidas frequentes sobre o assunto.',
+    content: `
         <p>
             A catarata é uma condição oftalmológica muito comum, especialmente após os 60 anos, e pode causar sérios prejuízos à qualidade de vida se não for tratada corretamente. Mas afinal, <strong>qual é o momento ideal para operar a catarata?</strong> A equipe médica da Sempre Visão responde essa e outras dúvidas frequentes sobre o assunto.
         </p>
@@ -1530,16 +1634,16 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-    },
-    {
-        title:
-            'Diagnóstico precoce da catarata é essencial para preservar a visão, alerta equipe da Sempre Visão',
-        slug: 'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao-alerta-equipe-da-sempre-visao',
-        imageUrl:
-            'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao.JPG',
-        description:
-            'A catarata é uma condição oftalmológica silenciosa e progressiva, que pode levar à perda parcial ou total da visão se não for tratada a tempo. Por isso, os especialistas da Sempre Visão, clínica referência em cirurgia de catarata, alertam: o diagnóstico precoce é fundamental para garantir a eficácia do tratamento e preservar a qualidade de vida do paciente.',
-        content: `
+  },
+  {
+    title:
+      'Diagnóstico precoce da catarata é essencial para preservar a visão, alerta equipe da Sempre Visão',
+    slug: 'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao-alerta-equipe-da-sempre-visao',
+    imageUrl:
+      'diagnostico-precoce-da-catarata-e-essencial-para-preservar-a-visao.JPG',
+    description:
+      'A catarata é uma condição oftalmológica silenciosa e progressiva, que pode levar à perda parcial ou total da visão se não for tratada a tempo. Por isso, os especialistas da Sempre Visão, clínica referência em cirurgia de catarata, alertam: o diagnóstico precoce é fundamental para garantir a eficácia do tratamento e preservar a qualidade de vida do paciente.',
+    content: `
         <p>
             A catarata é uma condição oftalmológica silenciosa e progressiva, que pode levar à perda parcial ou total da visão se não for tratada a tempo. Por isso, os especialistas da Sempre Visão, clínica referência em cirurgia de catarata, alertam: o diagnóstico precoce é fundamental para garantir a eficácia do tratamento e preservar a qualidade de vida do paciente.    
         </p>
@@ -1580,16 +1684,16 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-    },
-    {
-        title:
-            'Cirurgia de catarata: descubra como funciona, quando fazer e onde realizar com segurança',
-        slug: 'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca',
-        imageUrl:
-            'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca.JPG',
-        description:
-            'A cirurgia de catarata é um dos procedimentos mais realizados no Brasil e no mundo. Com o avanço da medicina oftalmológica, a cirurgia se tornou rápida, segura e extremamente eficaz para quem deseja recuperar a nitidez da visão e voltar a ter qualidade de vida.',
-        content: `
+  },
+  {
+    title:
+      'Cirurgia de catarata: descubra como funciona, quando fazer e onde realizar com segurança',
+    slug: 'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca',
+    imageUrl:
+      'cirurgia-de-catarata-descubra-como-funciona-quando-fazer-e-onde-realizar-com-seguranca.JPG',
+    description:
+      'A cirurgia de catarata é um dos procedimentos mais realizados no Brasil e no mundo. Com o avanço da medicina oftalmológica, a cirurgia se tornou rápida, segura e extremamente eficaz para quem deseja recuperar a nitidez da visão e voltar a ter qualidade de vida.',
+    content: `
         <p>
             A cirurgia de catarata é um dos procedimentos mais realizados no Brasil e no mundo. Com o avanço da medicina oftalmológica, a cirurgia se tornou rápida, segura e extremamente eficaz para quem deseja recuperar a nitidez da visão e voltar a ter qualidade de vida.
         </p>
@@ -1640,5 +1744,5 @@ export const posts: IPostList = [
             <li>🕐 Atendimento de segunda a sábado</li>
         </ul>
     `
-    }
+  }
 ];
