@@ -23,6 +23,9 @@ export const Navigation = () => {
           <a href="#Clinics">Clínicas</a>
         </li>
         <li>
+          <a href="/blog">Blog</a>
+        </li>
+        <li>
           <a href="https://semprevisao.sivoe.med.br/" target="_blank">
             Resultado de Exames
           </a>
